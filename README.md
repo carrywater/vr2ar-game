@@ -12,13 +12,14 @@ The game places the player in the first-person perspective of a robot mouse on a
 
 This project includes several features that can be useful for other creators looking to develop similar AR-VR experiences:
 
-- **House Model**: Fully custom low-poly house model with assets suitable for both AR and VR.
-- **VR to AR Setup in Unreal Engine 5.3.2**: A working setup demonstrating the transition between VR and AR within Unreal Engine 5.3.2.
-- **Custom VR pawn movement** Smooth VR movement that minimizes feeling of nausea.
-- **Enemy Pawn Sensing NPC**: A scalable non-player character blueprint (NPCs) with advanced behavior states including passive, investigating, seeking, and attacking.
-- **Damage System**: A system that handles damage, health, healing taken by the player character from enemies or obstacles.
-- **Collectable System**: a system for collectable items, including logic for collecting and tracking progress.
-
+| Feature | Description |
+| --- | --- |
+| **House Model** | Fully custom low-poly house model with assets suitable for both AR and VR. |
+| **VR to AR Setup in Unreal Engine 5.3.2** | A working setup demonstrating the transition between VR and AR within Unreal Engine 5.3.2. |
+| **Custom VR Pawn Movement** | Smooth VR movement that minimizes feeling of nausea. |
+| **Enemy Pawn Sensing NPC** | A scalable non-player character blueprint (NPC) with advanced behavior states including passive, investigating, seeking, and attacking. |
+| **Damage System** | A system that handles damage, health, and healing taken by the player character from enemies or obstacles. |
+| **Collectable System** | A system for collectable items, including logic for collecting and tracking progress. |
 ## Background and Motivation
 
 ### Progression of VR and AR
