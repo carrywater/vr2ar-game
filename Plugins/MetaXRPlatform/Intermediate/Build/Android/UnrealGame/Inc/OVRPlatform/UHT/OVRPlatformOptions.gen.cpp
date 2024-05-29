@@ -97,7 +97,7 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrAbuseReportOptions>()
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType = { "ReportType", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAbuseReportOptions, ReportType), Z_Construct_UEnum_OVRPlatform_EOvrAbuseReportType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType_MetaData), Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType_MetaData) }; // 3838170149
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType = { "ReportType", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAbuseReportOptions, ReportType), Z_Construct_UEnum_OVRPlatform_EOvrAbuseReportType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType_MetaData), Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType_MetaData) }; // 3456442530
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_PreventPeopleChooser,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewProp_ReportType_Underlying,
@@ -190,9 +190,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrAdvancedAbuseReportOp
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ObjectType_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|AdvancedAbuseReport|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If report_type is content, a string representing the type of content being reported. This should correspond to the object_type string used in the UI */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If report_type is content, a string representing the type of content being reported. This should correspond to the object_type string used in the UI" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ObjectType = { "ObjectType", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAdvancedAbuseReportOptions, ObjectType), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ObjectType_MetaData), Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ObjectType_MetaData) };
@@ -203,15 +207,15 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrAdvancedAbuseReportOp
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType = { "ReportType", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAdvancedAbuseReportOptions, ReportType), Z_Construct_UEnum_OVRPlatform_EOvrAbuseReportType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType_MetaData), Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType_MetaData) }; // 3838170149
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType = { "ReportType", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAdvancedAbuseReportOptions, ReportType), Z_Construct_UEnum_OVRPlatform_EOvrAbuseReportType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType_MetaData), Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_ReportType_MetaData) }; // 3456442530
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|AdvancedAbuseReport|Option" },
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAdvancedAbuseReportOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 1486140189
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAdvancedAbuseReportOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 3840939361
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_DeveloperDefinedContext_ValueProp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewProp_DeveloperDefinedContext_Key_KeyProp,
@@ -300,48 +304,68 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrApplicationOptions>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DeeplinkMessage_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Application|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * A message to be passed to a launched app, which can be retrieved\n     * with field FOvrLaunchDetails::DeeplinkMessage\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A message to be passed to a launched app, which can be retrieved\nwith field FOvrLaunchDetails::DeeplinkMessage" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DeeplinkMessage = { "DeeplinkMessage", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, DeeplinkMessage), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DeeplinkMessage_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DeeplinkMessage_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DestinationApiName_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Application|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * If provided, the intended destination to be passed to the launched\n     * app\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If provided, the intended destination to be passed to the launched\napp" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DestinationApiName = { "DestinationApiName", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, DestinationApiName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DestinationApiName_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DestinationApiName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_LobbySessionId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Application|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * If provided, the intended lobby where the launched app should take\n     * the user. All users with the same lobby_session_id should end up grouped\n     * together in the launched app.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If provided, the intended lobby where the launched app should take\nthe user. All users with the same lobby_session_id should end up grouped\ntogether in the launched app." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_LobbySessionId = { "LobbySessionId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, LobbySessionId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_LobbySessionId_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_LobbySessionId_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_MatchSessionId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Application|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * If provided, the intended instance of the destination that a user\n     * should be launched into\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If provided, the intended instance of the destination that a user\nshould be launched into" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_MatchSessionId = { "MatchSessionId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, MatchSessionId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_MatchSessionId_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_MatchSessionId_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Application|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * [Deprecated]If provided, the intended room where the launched app\n     * should take the user (all users heading to the same place should have the\n     * same value). A room_id of 0 is INVALID.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "[Deprecated]If provided, the intended room where the launched app\nshould take the user (all users heading to the same place should have the\nsame value). A room_id of 0 is INVALID." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId = { "RoomId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, RoomId), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId_MetaData) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId = { "RoomId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrApplicationOptions, RoomId), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId_MetaData), Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_RoomId_MetaData) }; // 3840939361
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DeeplinkMessage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewProp_DestinationApiName,
@@ -411,9 +435,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrAvatarEditorOptions>(
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewProp_SourceOverride_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|AvatarEditor|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional: Override for where the request is coming from. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional: Override for where the request is coming from." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewProp_SourceOverride = { "SourceOverride", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrAvatarEditorOptions, SourceOverride), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewProp_SourceOverride_MetaData), Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewProp_SourceOverride_MetaData) };
@@ -570,9 +598,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrChallengeOptions>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_LeaderboardName_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Challenge|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional: Only find challenges belonging to this leaderboard. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional: Only find challenges belonging to this leaderboard." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrChallengeOptions, LeaderboardName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_LeaderboardName_MetaData), Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_LeaderboardName_MetaData) };
@@ -597,7 +629,7 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrChallengeOptions>()
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter = { "ViewerFilter", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrChallengeOptions, ViewerFilter), Z_Construct_UEnum_OVRPlatform_EOvrChallengeViewerFilter, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter_MetaData), Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter_MetaData) }; // 4096897729
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter = { "ViewerFilter", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrChallengeOptions, ViewerFilter), Z_Construct_UEnum_OVRPlatform_EOvrChallengeViewerFilter, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter_MetaData), Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_ViewerFilter_MetaData) }; // 3938822877
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_MetaData[] = {
@@ -605,7 +637,7 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrChallengeOptions>()
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrChallengeOptions, Visibility), Z_Construct_UEnum_OVRPlatform_EOvrChallengeVisibility, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_MetaData), Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_MetaData) }; // 2364171270
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrChallengeOptions, Visibility), Z_Construct_UEnum_OVRPlatform_EOvrChallengeVisibility, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_MetaData), Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Visibility_MetaData) }; // 2732783170
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_Description,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewProp_EndDate,
@@ -699,27 +731,39 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrGroupPresenceOptions>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|GroupPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Use FOvrGroupPresenceOptions::LobbySessionId or FOvrGroupPresenceOptions::MatchSessionId to specify the session. Use the deeplink message override for\n     * any additional data in whatever format you wish to aid in bringing users together. If not specified, the deeplink_message for the user will default to the one on the\n     * destination.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use FOvrGroupPresenceOptions::LobbySessionId or FOvrGroupPresenceOptions::MatchSessionId to specify the session. Use the deeplink message override for\nany additional data in whatever format you wish to aid in bringing users together. If not specified, the deeplink_message for the user will default to the one on the\ndestination." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DeeplinkMessageOverride = { "DeeplinkMessageOverride", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrGroupPresenceOptions, DeeplinkMessageOverride), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DestinationApiName_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|GroupPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This the unique API Name that refers to an in-app destination */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This the unique API Name that refers to an in-app destination" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DestinationApiName = { "DestinationApiName", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrGroupPresenceOptions, DestinationApiName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DestinationApiName_MetaData), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_DestinationApiName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_IsJoinable_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|GroupPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Set whether or not the person is shown as joinable or not to others.  A user that is joinable can invite others to join them. Set this to false if other\n     * users would not be able to join this user. For example: the current session is full, or only the host can invite others and the current user is not the host.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set whether or not the person is shown as joinable or not to others.  A user that is joinable can invite others to join them. Set this to false if other\nusers would not be able to join this user. For example: the current session is full, or only the host can invite others and the current user is not the host." },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_IsJoinable_SetBit(void* Obj)
@@ -730,18 +774,26 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrGroupPresenceOptions>
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_LobbySessionId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|GroupPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * This is a session that represents a closer group/squad/party of users. It is expected that all users with the same lobby session id can see or\n     * hear each other. Users with the same lobby session id in their group presence will show up in the roster and will show up as \"Recently Played With\"\n     * for future invites if they aren't already Oculus friends. This must be set in addition to is_joinable being true for a user to use invites.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is a session that represents a closer group/squad/party of users. It is expected that all users with the same lobby session id can see or\nhear each other. Users with the same lobby session id in their group presence will show up in the roster and will show up as \"Recently Played With\"\nfor future invites if they aren't already Oculus friends. This must be set in addition to is_joinable being true for a user to use invites." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_LobbySessionId = { "LobbySessionId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrGroupPresenceOptions, LobbySessionId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_LobbySessionId_MetaData), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_LobbySessionId_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_MatchSessionId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|GroupPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * This is a session that represents all the users that are playing a specific instance of a map, game mode, round, etc. This\n     * can include users from multiple different lobbies that joined together and the users may or may not remain together after the match is over.\n     * Users with the same match session id in their group presence will not show up in the Roster, but will show up as \"Recently Played with\" for future invites.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is a session that represents all the users that are playing a specific instance of a map, game mode, round, etc. This\ncan include users from multiple different lobbies that joined together and the users may or may not remain together after the match is over.\nUsers with the same match session id in their group presence will not show up in the Roster, but will show up as \"Recently Played with\" for future invites." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_MatchSessionId = { "MatchSessionId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrGroupPresenceOptions, MatchSessionId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_MatchSessionId_MetaData), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewProp_MatchSessionId_MetaData) };
@@ -812,16 +864,20 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrInviteOptions>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FOvrInviteOptions>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Invite|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Passing in these users will add them to the invitable users list */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Passing in these users will add them to the invitable users list" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrInviteOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 1486140189
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrInviteOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 3840939361
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewProp_SuggestedUsers,
@@ -890,12 +946,16 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrMultiplayerErrorOptio
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|MultiplayerError|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Key associated with the predefined error message to be shown to users. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Key associated with the predefined error message to be shown to users." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey = { "ErrorKey", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrMultiplayerErrorOptions, ErrorKey), Z_Construct_UEnum_OVRPlatform_EOvrMultiplayerErrorErrorKey, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_MetaData), Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_MetaData) }; // 2611589755
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey = { "ErrorKey", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrMultiplayerErrorOptions, ErrorKey), Z_Construct_UEnum_OVRPlatform_EOvrMultiplayerErrorErrorKey, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_MetaData), Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_MetaData) }; // 3843135906
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewProp_ErrorKey,
@@ -971,9 +1031,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrNetSyncOptions>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipGroup_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|NetSync|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * If provided, immediately set the voip_group to this value upon\n     * connection\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If provided, immediately set the voip_group to this value upon\nconnection" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipGroup = { "VoipGroup", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrNetSyncOptions, VoipGroup), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipGroup_MetaData), Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipGroup_MetaData) };
@@ -981,18 +1045,26 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrNetSyncOptions>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|NetSync|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * When a new remote voip user connects, default that connection to this\n     * stream type by default.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When a new remote voip user connects, default that connection to this\nstream type by default." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault = { "VoipStreamDefault", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrNetSyncOptions, VoipStreamDefault), Z_Construct_UEnum_OVRPlatform_EOvrNetSyncVoipStreamMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault_MetaData), Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault_MetaData) }; // 3376788165
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault = { "VoipStreamDefault", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrNetSyncOptions, VoipStreamDefault), Z_Construct_UEnum_OVRPlatform_EOvrNetSyncVoipStreamMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault_MetaData), Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_VoipStreamDefault_MetaData) }; // 1963418392
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_ZoneId_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|NetSync|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Unique identifier within the current application grouping */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unique identifier within the current application grouping" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_ZoneId = { "ZoneId", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrNetSyncOptions, ZoneId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_ZoneId_MetaData), Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewProp_ZoneId_MetaData) };
@@ -1073,33 +1145,45 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrRichPresenceOptions>(
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_ApiName_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|RichPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use FOvrGroupPresenceOptions::DestinationApiName */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Use FOvrGroupPresenceOptions::DestinationApiName" },
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use FOvrGroupPresenceOptions::DestinationApiName" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_ApiName = { "ApiName", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrRichPresenceOptions, ApiName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_ApiName_MetaData), Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_ApiName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|RichPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use FOvrGroupPresenceOptions::DeeplinkMessageOverride */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Use FOvrGroupPresenceOptions::DeeplinkMessageOverride" },
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use FOvrGroupPresenceOptions::DeeplinkMessageOverride" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_DeeplinkMessageOverride = { "DeeplinkMessageOverride", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrRichPresenceOptions, DeeplinkMessageOverride), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData), Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_DeeplinkMessageOverride_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_IsJoinable_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|RichPresence|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use FOvrGroupPresenceOptions::IsJoinable */" },
+#endif
 		{ "DeprecatedProperty", "" },
 		{ "DeprecationMessage", "Use FOvrGroupPresenceOptions::IsJoinable" },
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use FOvrGroupPresenceOptions::IsJoinable" },
+#endif
 	};
 #endif
 	void Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewProp_IsJoinable_SetBit(void* Obj)
@@ -1172,16 +1256,20 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrRosterOptions>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FOvrRosterOptions>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_Inner = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Roster|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Passing in these users will add them to the invitable users list. From the roster panel, the user can open the invite list,\n     * where the suggested users will be added.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Passing in these users will add them to the invitable users list. From the roster panel, the user can open the invite list,\nwhere the suggested users will be added." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrRosterOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 1486140189
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers = { "SuggestedUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrRosterOptions, SuggestedUsers), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_MetaData), Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_MetaData) }; // 3840939361
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewProp_SuggestedUsers,
@@ -1264,14 +1352,14 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrUserOptions>()
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_MaxUsers = { "MaxUsers", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrUserOptions, MaxUsers), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_MaxUsers_MetaData), Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_MaxUsers_MetaData) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_Inner_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_Inner = { "ServiceProviders", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OVRPlatform_EOvrServiceProvider, METADATA_PARAMS(0, nullptr) }; // 1139256461
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_Inner = { "ServiceProviders", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UEnum_OVRPlatform_EOvrServiceProvider, METADATA_PARAMS(0, nullptr) }; // 4025987212
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|User|Option" },
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders = { "ServiceProviders", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrUserOptions, ServiceProviders), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_MetaData), Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_MetaData) }; // 1139256461
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders = { "ServiceProviders", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrUserOptions, ServiceProviders), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_MetaData), Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_MetaData) }; // 4025987212
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_MetaData[] = {
@@ -1279,7 +1367,7 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrUserOptions>()
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow = { "TimeWindow", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrUserOptions, TimeWindow), Z_Construct_UEnum_OVRPlatform_EOvrTimeWindow, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_MetaData), Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_MetaData) }; // 1757290216
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow = { "TimeWindow", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrUserOptions, TimeWindow), Z_Construct_UEnum_OVRPlatform_EOvrTimeWindow, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_MetaData), Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_TimeWindow_MetaData) }; // 3381358571
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrUserOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_MaxUsers,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewProp_ServiceProviders_Inner_Underlying,
@@ -1357,22 +1445,30 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrVoipOptions>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Voip|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Sets the maximum average bitrate the audio codec should use. Higher bitrates\n     * will increase audio quality at the expense of increased network usage. Use a lower\n     * bitrate if you think the quality is good but the network usage is too much. Use a\n     * higher bitrate if you think the quality is bad and you can afford to have a large\n     * streaming bitrate.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the maximum average bitrate the audio codec should use. Higher bitrates\nwill increase audio quality at the expense of increased network usage. Use a lower\nbitrate if you think the quality is good but the network usage is too much. Use a\nhigher bitrate if you think the quality is bad and you can afford to have a large\nstreaming bitrate." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections = { "BitrateForNewConnections", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVoipOptions, BitrateForNewConnections), Z_Construct_UEnum_OVRPlatform_EOvrVoipBitrate, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_MetaData), Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_MetaData) }; // 1196634490
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections = { "BitrateForNewConnections", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVoipOptions, BitrateForNewConnections), Z_Construct_UEnum_OVRPlatform_EOvrVoipBitrate, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_MetaData), Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_MetaData) }; // 3604360586
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_MetaData[] = {
 		{ "Category", "OvrPlatform|Options|Voip|Option" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Set the opus codec to use discontinous transmission (DTX). DTX only transmits\n     * data when a person is speaking. Setting this to true takes advantage of the fact\n     * that in a two-way converstation each individual speaks for less than half the time.\n     * Enabling DTX will conserve battery power and reduce transmission rate when a pause\n     * in the voice chat is detected.\n     */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the opus codec to use discontinous transmission (DTX). DTX only transmits\ndata when a person is speaking. Setting this to true takes advantage of the fact\nthat in a two-way converstation each individual speaks for less than half the time.\nEnabling DTX will conserve battery power and reduce transmission rate when a pause\nin the voice chat is detected." },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx = { "CreateNewConnectionUseDtx", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVoipOptions, CreateNewConnectionUseDtx), Z_Construct_UEnum_OVRPlatform_EOvrVoipDtxState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_MetaData), Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_MetaData) }; // 403102528
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx = { "CreateNewConnectionUseDtx", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVoipOptions, CreateNewConnectionUseDtx), Z_Construct_UEnum_OVRPlatform_EOvrVoipDtxState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_MetaData), Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_CreateNewConnectionUseDtx_MetaData) }; // 2358751003
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewProp_BitrateForNewConnections,
@@ -1401,27 +1497,27 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrVoipOptions>()
 		}
 		return Z_Registration_Info_UScriptStruct_OvrVoipOptions.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo[] = {
-		{ FOvrAbuseReportOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewStructOps, TEXT("OvrAbuseReportOptions"), &Z_Registration_Info_UScriptStruct_OvrAbuseReportOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAbuseReportOptions), 1806460820U) },
-		{ FOvrAdvancedAbuseReportOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewStructOps, TEXT("OvrAdvancedAbuseReportOptions"), &Z_Registration_Info_UScriptStruct_OvrAdvancedAbuseReportOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAdvancedAbuseReportOptions), 709627819U) },
-		{ FOvrApplicationOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewStructOps, TEXT("OvrApplicationOptions"), &Z_Registration_Info_UScriptStruct_OvrApplicationOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrApplicationOptions), 3986119237U) },
-		{ FOvrAvatarEditorOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewStructOps, TEXT("OvrAvatarEditorOptions"), &Z_Registration_Info_UScriptStruct_OvrAvatarEditorOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAvatarEditorOptions), 1821452396U) },
-		{ FOvrChallengeOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewStructOps, TEXT("OvrChallengeOptions"), &Z_Registration_Info_UScriptStruct_OvrChallengeOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrChallengeOptions), 1612369313U) },
-		{ FOvrGroupPresenceOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewStructOps, TEXT("OvrGroupPresenceOptions"), &Z_Registration_Info_UScriptStruct_OvrGroupPresenceOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrGroupPresenceOptions), 3002339038U) },
-		{ FOvrInviteOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewStructOps, TEXT("OvrInviteOptions"), &Z_Registration_Info_UScriptStruct_OvrInviteOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrInviteOptions), 2007327145U) },
-		{ FOvrMultiplayerErrorOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewStructOps, TEXT("OvrMultiplayerErrorOptions"), &Z_Registration_Info_UScriptStruct_OvrMultiplayerErrorOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrMultiplayerErrorOptions), 789769650U) },
-		{ FOvrNetSyncOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewStructOps, TEXT("OvrNetSyncOptions"), &Z_Registration_Info_UScriptStruct_OvrNetSyncOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrNetSyncOptions), 2961854134U) },
-		{ FOvrRichPresenceOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewStructOps, TEXT("OvrRichPresenceOptions"), &Z_Registration_Info_UScriptStruct_OvrRichPresenceOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrRichPresenceOptions), 3689340698U) },
-		{ FOvrRosterOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewStructOps, TEXT("OvrRosterOptions"), &Z_Registration_Info_UScriptStruct_OvrRosterOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrRosterOptions), 756770234U) },
-		{ FOvrUserOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewStructOps, TEXT("OvrUserOptions"), &Z_Registration_Info_UScriptStruct_OvrUserOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrUserOptions), 11049269U) },
-		{ FOvrVoipOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewStructOps, TEXT("OvrVoipOptions"), &Z_Registration_Info_UScriptStruct_OvrVoipOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrVoipOptions), 3249240462U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo[] = {
+		{ FOvrAbuseReportOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAbuseReportOptions_Statics::NewStructOps, TEXT("OvrAbuseReportOptions"), &Z_Registration_Info_UScriptStruct_OvrAbuseReportOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAbuseReportOptions), 2997033628U) },
+		{ FOvrAdvancedAbuseReportOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAdvancedAbuseReportOptions_Statics::NewStructOps, TEXT("OvrAdvancedAbuseReportOptions"), &Z_Registration_Info_UScriptStruct_OvrAdvancedAbuseReportOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAdvancedAbuseReportOptions), 3738936582U) },
+		{ FOvrApplicationOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrApplicationOptions_Statics::NewStructOps, TEXT("OvrApplicationOptions"), &Z_Registration_Info_UScriptStruct_OvrApplicationOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrApplicationOptions), 1165683932U) },
+		{ FOvrAvatarEditorOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrAvatarEditorOptions_Statics::NewStructOps, TEXT("OvrAvatarEditorOptions"), &Z_Registration_Info_UScriptStruct_OvrAvatarEditorOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrAvatarEditorOptions), 3442980261U) },
+		{ FOvrChallengeOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrChallengeOptions_Statics::NewStructOps, TEXT("OvrChallengeOptions"), &Z_Registration_Info_UScriptStruct_OvrChallengeOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrChallengeOptions), 2072678075U) },
+		{ FOvrGroupPresenceOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrGroupPresenceOptions_Statics::NewStructOps, TEXT("OvrGroupPresenceOptions"), &Z_Registration_Info_UScriptStruct_OvrGroupPresenceOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrGroupPresenceOptions), 2698908294U) },
+		{ FOvrInviteOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrInviteOptions_Statics::NewStructOps, TEXT("OvrInviteOptions"), &Z_Registration_Info_UScriptStruct_OvrInviteOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrInviteOptions), 1037622282U) },
+		{ FOvrMultiplayerErrorOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions_Statics::NewStructOps, TEXT("OvrMultiplayerErrorOptions"), &Z_Registration_Info_UScriptStruct_OvrMultiplayerErrorOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrMultiplayerErrorOptions), 473180997U) },
+		{ FOvrNetSyncOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrNetSyncOptions_Statics::NewStructOps, TEXT("OvrNetSyncOptions"), &Z_Registration_Info_UScriptStruct_OvrNetSyncOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrNetSyncOptions), 2893538237U) },
+		{ FOvrRichPresenceOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrRichPresenceOptions_Statics::NewStructOps, TEXT("OvrRichPresenceOptions"), &Z_Registration_Info_UScriptStruct_OvrRichPresenceOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrRichPresenceOptions), 3730790537U) },
+		{ FOvrRosterOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrRosterOptions_Statics::NewStructOps, TEXT("OvrRosterOptions"), &Z_Registration_Info_UScriptStruct_OvrRosterOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrRosterOptions), 2141004297U) },
+		{ FOvrUserOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrUserOptions_Statics::NewStructOps, TEXT("OvrUserOptions"), &Z_Registration_Info_UScriptStruct_OvrUserOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrUserOptions), 1369755244U) },
+		{ FOvrVoipOptions::StaticStruct, Z_Construct_UScriptStruct_FOvrVoipOptions_Statics::NewStructOps, TEXT("OvrVoipOptions"), &Z_Registration_Info_UScriptStruct_OvrVoipOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrVoipOptions), 1380534809U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_1225158421(TEXT("/Script/OVRPlatform"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_1979032900(TEXT("/Script/OVRPlatform"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformOptions_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

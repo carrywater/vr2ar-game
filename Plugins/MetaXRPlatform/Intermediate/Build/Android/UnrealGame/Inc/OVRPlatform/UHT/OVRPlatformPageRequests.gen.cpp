@@ -447,7 +447,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionPages_MetaData[] = {
@@ -455,8 +455,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionPages = { "AchievementDefinitionPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, AchievementDefinitionPages), Z_Construct_UScriptStruct_FOvrAchievementDefinitionPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionPages_MetaData) }; // 1768083220
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionArray_Inner = { "AchievementDefinitionArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrAchievementDefinition, METADATA_PARAMS(0, nullptr) }; // 1632684008
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionArray = { "AchievementDefinitionArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, AchievementDefinitionArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1632684008
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionArray_Inner = { "AchievementDefinitionArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrAchievementDefinition, METADATA_PARAMS(0, nullptr) }; // 501398320
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_AchievementDefinitionArray = { "AchievementDefinitionArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms, AchievementDefinitionArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 501398320
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchAchievementDefinitionPage_Parms*)Obj)->bHasNextPage = 1;
@@ -480,12 +480,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "AchievementDefinitionPages" },
 		{ "Category", "OvrPlatform|Models|AchievementDefinitionArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrAchievementDefinitionPages paged array.\n     * @param AchievementDefinitionPages - a FOvrAchievementDefinitionPages\n     * @param AchievementDefinitionArray - an array of FOvrAchievementDefinition\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrAchievementDefinitionPages paged array.\n@param AchievementDefinitionPages - a FOvrAchievementDefinitionPages\n@param AchievementDefinitionArray - an array of FOvrAchievementDefinition\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -547,7 +551,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementProgressPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementProgressPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementProgressPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchAchievementProgressPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::NewProp_AchievementProgressPages_MetaData[] = {
@@ -580,12 +584,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "AchievementProgressPages" },
 		{ "Category", "OvrPlatform|Models|AchievementProgressArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrAchievementProgressPages paged array.\n     * @param AchievementProgressPages - a FOvrAchievementProgressPages\n     * @param AchievementProgressArray - an array of FOvrAchievementProgress\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrAchievementProgressPages paged array.\n@param AchievementProgressPages - a FOvrAchievementProgressPages\n@param AchievementProgressArray - an array of FOvrAchievementProgress\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -647,7 +655,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInvitePages_MetaData[] = {
@@ -655,8 +663,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInvitePages = { "ApplicationInvitePages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, ApplicationInvitePages), Z_Construct_UScriptStruct_FOvrApplicationInvitePages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInvitePages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInvitePages_MetaData) }; // 785859825
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInviteArray_Inner = { "ApplicationInviteArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrApplicationInvite, METADATA_PARAMS(0, nullptr) }; // 2222107796
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInviteArray = { "ApplicationInviteArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, ApplicationInviteArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2222107796
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInviteArray_Inner = { "ApplicationInviteArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrApplicationInvite, METADATA_PARAMS(0, nullptr) }; // 3003979098
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_ApplicationInviteArray = { "ApplicationInviteArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms, ApplicationInviteArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3003979098
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchApplicationInvitePage_Parms*)Obj)->bHasNextPage = 1;
@@ -680,12 +688,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "ApplicationInvitePages" },
 		{ "Category", "OvrPlatform|Models|ApplicationInviteArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrApplicationInvitePages paged array.\n     * @param ApplicationInvitePages - a FOvrApplicationInvitePages\n     * @param ApplicationInviteArray - an array of FOvrApplicationInvite\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrApplicationInvitePages paged array.\n@param ApplicationInvitePages - a FOvrApplicationInvitePages\n@param ApplicationInviteArray - an array of FOvrApplicationInvite\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -747,7 +759,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserPages_MetaData[] = {
@@ -755,8 +767,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserPages = { "BlockedUserPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, BlockedUserPages), Z_Construct_UScriptStruct_FOvrBlockedUserPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserPages_MetaData) }; // 3072931637
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserArray_Inner = { "BlockedUserArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrBlockedUser, METADATA_PARAMS(0, nullptr) }; // 1322114956
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserArray = { "BlockedUserArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, BlockedUserArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1322114956
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserArray_Inner = { "BlockedUserArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrBlockedUser, METADATA_PARAMS(0, nullptr) }; // 1180864881
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_BlockedUserArray = { "BlockedUserArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms, BlockedUserArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1180864881
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchBlockedUserPage_Parms*)Obj)->bHasNextPage = 1;
@@ -780,12 +792,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "BlockedUserPages" },
 		{ "Category", "OvrPlatform|Models|BlockedUserArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrBlockedUserPages paged array.\n     * @param BlockedUserPages - a FOvrBlockedUserPages\n     * @param BlockedUserArray - an array of FOvrBlockedUser\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrBlockedUserPages paged array.\n@param BlockedUserPages - a FOvrBlockedUserPages\n@param BlockedUserArray - an array of FOvrBlockedUser\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -850,7 +866,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrBidirectionalArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_InExecs_MetaData) }; // 1753891544
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryPages_MetaData[] = {
@@ -858,8 +874,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryPages = { "ChallengeEntryPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, ChallengeEntryPages), Z_Construct_UScriptStruct_FOvrChallengeEntryPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryPages_MetaData) }; // 3366999109
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryArray_Inner = { "ChallengeEntryArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrChallengeEntry, METADATA_PARAMS(0, nullptr) }; // 1413636085
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryArray = { "ChallengeEntryArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, ChallengeEntryArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1413636085
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryArray_Inner = { "ChallengeEntryArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrChallengeEntry, METADATA_PARAMS(0, nullptr) }; // 1832118467
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_ChallengeEntryArray = { "ChallengeEntryArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms, ChallengeEntryArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1832118467
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchChallengeEntryPage_Parms*)Obj)->bHasNextPage = 1;
@@ -889,12 +905,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "ChallengeEntryPages" },
 		{ "Category", "OvrPlatform|Models|ChallengeEntryArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from a bidirectional FOvrChallengeEntryPages paged array.\n     * @param ChallengeEntryPages - a FOvrChallengeEntryPages\n     * @param ChallengeEntryArray - an array of FOvrChallengeEntry\n     * @param bHasNextPage - if more pages are available after this one.\n     * @param bHasPreviousPage - if more pages are available before this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from a bidirectional FOvrChallengeEntryPages paged array.\n@param ChallengeEntryPages - a FOvrChallengeEntryPages\n@param ChallengeEntryArray - an array of FOvrChallengeEntry\n@param bHasNextPage - if more pages are available after this one.\n@param bHasPreviousPage - if more pages are available before this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -959,7 +979,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrBidirectionalArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_InExecs_MetaData) }; // 1753891544
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengePages_MetaData[] = {
@@ -967,8 +987,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengePages = { "ChallengePages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, ChallengePages), Z_Construct_UScriptStruct_FOvrChallengePages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengePages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengePages_MetaData) }; // 777627842
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengeArray_Inner = { "ChallengeArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengeArray = { "ChallengeArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, ChallengeArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengeArray_Inner = { "ChallengeArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_ChallengeArray = { "ChallengeArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms, ChallengeArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchChallengePage_Parms*)Obj)->bHasNextPage = 1;
@@ -998,12 +1018,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "ChallengePages" },
 		{ "Category", "OvrPlatform|Models|ChallengeArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from a bidirectional FOvrChallengePages paged array.\n     * @param ChallengePages - a FOvrChallengePages\n     * @param ChallengeArray - an array of FOvrChallenge\n     * @param bHasNextPage - if more pages are available after this one.\n     * @param bHasPreviousPage - if more pages are available before this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from a bidirectional FOvrChallengePages paged array.\n@param ChallengePages - a FOvrChallengePages\n@param ChallengeArray - an array of FOvrChallenge\n@param bHasNextPage - if more pages are available after this one.\n@param bHasPreviousPage - if more pages are available before this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1065,7 +1089,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerPages_MetaData[] = {
@@ -1073,8 +1097,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerPages = { "CowatchViewerPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, CowatchViewerPages), Z_Construct_UScriptStruct_FOvrCowatchViewerPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerPages_MetaData) }; // 3213703883
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerArray_Inner = { "CowatchViewerArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrCowatchViewer, METADATA_PARAMS(0, nullptr) }; // 4137290002
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerArray = { "CowatchViewerArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, CowatchViewerArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 4137290002
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerArray_Inner = { "CowatchViewerArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrCowatchViewer, METADATA_PARAMS(0, nullptr) }; // 3141380718
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_CowatchViewerArray = { "CowatchViewerArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms, CowatchViewerArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3141380718
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchCowatchViewerPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1098,12 +1122,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "CowatchViewerPages" },
 		{ "Category", "OvrPlatform|Models|CowatchViewerArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrCowatchViewerPages paged array.\n     * @param CowatchViewerPages - a FOvrCowatchViewerPages\n     * @param CowatchViewerArray - an array of FOvrCowatchViewer\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrCowatchViewerPages paged array.\n@param CowatchViewerPages - a FOvrCowatchViewerPages\n@param CowatchViewerArray - an array of FOvrCowatchViewer\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1165,7 +1193,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationPages_MetaData[] = {
@@ -1173,8 +1201,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationPages = { "DestinationPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, DestinationPages), Z_Construct_UScriptStruct_FOvrDestinationPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationPages_MetaData) }; // 2950092053
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationArray_Inner = { "DestinationArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrDestination, METADATA_PARAMS(0, nullptr) }; // 2749375387
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationArray = { "DestinationArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, DestinationArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2749375387
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationArray_Inner = { "DestinationArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrDestination, METADATA_PARAMS(0, nullptr) }; // 3344288905
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_DestinationArray = { "DestinationArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms, DestinationArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3344288905
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchDestinationPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1198,12 +1226,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "DestinationPages" },
 		{ "Category", "OvrPlatform|Models|DestinationArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrDestinationPages paged array.\n     * @param DestinationPages - a FOvrDestinationPages\n     * @param DestinationArray - an array of FOvrDestination\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrDestinationPages paged array.\n@param DestinationPages - a FOvrDestinationPages\n@param DestinationArray - an array of FOvrDestination\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1268,7 +1300,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrBidirectionalArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_InExecs_MetaData) }; // 1753891544
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryPages_MetaData[] = {
@@ -1276,8 +1308,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryPages = { "LeaderboardEntryPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, LeaderboardEntryPages), Z_Construct_UScriptStruct_FOvrLeaderboardEntryPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryPages_MetaData) }; // 3276399142
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryArray_Inner = { "LeaderboardEntryArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrLeaderboardEntry, METADATA_PARAMS(0, nullptr) }; // 1342580735
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryArray = { "LeaderboardEntryArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, LeaderboardEntryArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1342580735
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryArray_Inner = { "LeaderboardEntryArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrLeaderboardEntry, METADATA_PARAMS(0, nullptr) }; // 4105258666
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_LeaderboardEntryArray = { "LeaderboardEntryArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms, LeaderboardEntryArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 4105258666
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardEntryPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1307,12 +1339,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "LeaderboardEntryPages" },
 		{ "Category", "OvrPlatform|Models|LeaderboardEntryArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from a bidirectional FOvrLeaderboardEntryPages paged array.\n     * @param LeaderboardEntryPages - a FOvrLeaderboardEntryPages\n     * @param LeaderboardEntryArray - an array of FOvrLeaderboardEntry\n     * @param bHasNextPage - if more pages are available after this one.\n     * @param bHasPreviousPage - if more pages are available before this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from a bidirectional FOvrLeaderboardEntryPages paged array.\n@param LeaderboardEntryPages - a FOvrLeaderboardEntryPages\n@param LeaderboardEntryArray - an array of FOvrLeaderboardEntry\n@param bHasNextPage - if more pages are available after this one.\n@param bHasPreviousPage - if more pages are available before this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1374,7 +1410,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardPages_MetaData[] = {
@@ -1382,8 +1418,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardPages = { "LeaderboardPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, LeaderboardPages), Z_Construct_UScriptStruct_FOvrLeaderboardPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardPages_MetaData) }; // 3443071613
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardArray_Inner = { "LeaderboardArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrLeaderboard, METADATA_PARAMS(0, nullptr) }; // 2854353782
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardArray = { "LeaderboardArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, LeaderboardArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2854353782
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardArray_Inner = { "LeaderboardArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrLeaderboard, METADATA_PARAMS(0, nullptr) }; // 2559412943
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_LeaderboardArray = { "LeaderboardArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms, LeaderboardArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2559412943
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchLeaderboardPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1407,12 +1443,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "LeaderboardPages" },
 		{ "Category", "OvrPlatform|Models|LeaderboardArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrLeaderboardPages paged array.\n     * @param LeaderboardPages - a FOvrLeaderboardPages\n     * @param LeaderboardArray - an array of FOvrLeaderboard\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrLeaderboardPages paged array.\n@param LeaderboardPages - a FOvrLeaderboardPages\n@param LeaderboardArray - an array of FOvrLeaderboard\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1474,7 +1514,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchProductPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchProductPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchProductPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchProductPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::NewProp_ProductPages_MetaData[] = {
@@ -1507,12 +1547,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "ProductPages" },
 		{ "Category", "OvrPlatform|Models|ProductArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrProductPages paged array.\n     * @param ProductPages - a FOvrProductPages\n     * @param ProductArray - an array of FOvrProduct\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrProductPages paged array.\n@param ProductPages - a FOvrProductPages\n@param ProductArray - an array of FOvrProduct\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1574,7 +1618,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchPurchasePage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchPurchasePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchPurchasePage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchPurchasePage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::NewProp_PurchasePages_MetaData[] = {
@@ -1607,12 +1651,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "PurchasePages" },
 		{ "Category", "OvrPlatform|Models|PurchaseArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrPurchasePages paged array.\n     * @param PurchasePages - a FOvrPurchasePages\n     * @param PurchaseArray - an array of FOvrPurchase\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrPurchasePages paged array.\n@param PurchasePages - a FOvrPurchasePages\n@param PurchaseArray - an array of FOvrPurchase\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1674,7 +1722,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityPages_MetaData[] = {
@@ -1682,8 +1730,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityPages = { "UserCapabilityPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, UserCapabilityPages), Z_Construct_UScriptStruct_FOvrUserCapabilityPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityPages_MetaData) }; // 351477282
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityArray_Inner = { "UserCapabilityArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrUserCapability, METADATA_PARAMS(0, nullptr) }; // 2927972571
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityArray = { "UserCapabilityArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, UserCapabilityArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2927972571
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityArray_Inner = { "UserCapabilityArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrUserCapability, METADATA_PARAMS(0, nullptr) }; // 1108007687
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_UserCapabilityArray = { "UserCapabilityArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms, UserCapabilityArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1108007687
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchUserCapabilityPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1707,12 +1755,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "UserCapabilityPages" },
 		{ "Category", "OvrPlatform|Models|UserCapabilityArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrUserCapabilityPages paged array.\n     * @param UserCapabilityPages - a FOvrUserCapabilityPages\n     * @param UserCapabilityArray - an array of FOvrUserCapability\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrUserCapabilityPages paged array.\n@param UserCapabilityPages - a FOvrUserCapabilityPages\n@param UserCapabilityArray - an array of FOvrUserCapability\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1774,7 +1826,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_InExecs = { "InExecs", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, InExecs), Z_Construct_UEnum_OVRPlatform_EOvrForwardArrayIteratorInputPins, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_InExecs_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_InExecs_MetaData) }; // 1055816530
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2231247403
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 1783670523
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserPages_MetaData[] = {
@@ -1782,8 +1834,8 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserPages = { "UserPages", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, UserPages), Z_Construct_UScriptStruct_FOvrUserPages, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserPages_MetaData), Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserPages_MetaData) }; // 465467618
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserArray_Inner = { "UserArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 3492099271
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserArray = { "UserArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, UserArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3492099271
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserArray_Inner = { "UserArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 1079139872
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_UserArray = { "UserArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms, UserArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1079139872
 	void Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::NewProp_bHasNextPage_SetBit(void* Obj)
 	{
 		((OvrPageRequestsBlueprintLibrary_eventFetchUserPage_Parms*)Obj)->bHasNextPage = 1;
@@ -1807,12 +1859,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage_Statics::Function_MetaDataParams[] = {
 		{ "AutoCreateRefTerm", "UserPages" },
 		{ "Category", "OvrPlatform|Models|UserArray" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Fetches a page from an FOvrUserPages paged array.\n     * @param UserPages - a FOvrUserPages\n     * @param UserArray - an array of FOvrUser\n     * @param bHasNextPage - if more pages are available after this one.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "InExecs,OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformPageRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Fetches a page from an FOvrUserPages paged array.\n@param UserPages - a FOvrUserPages\n@param UserArray - an array of FOvrUser\n@param bHasNextPage - if more pages are available after this one." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1849,20 +1905,20 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOvrPageRequestsBlueprintLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOvrPageRequestsBlueprintLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage, "FetchAchievementDefinitionPage" }, // 554901030
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage, "FetchAchievementProgressPage" }, // 2427843266
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage, "FetchApplicationInvitePage" }, // 2352520987
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage, "FetchBlockedUserPage" }, // 3763686087
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage, "FetchChallengeEntryPage" }, // 1421813089
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage, "FetchChallengePage" }, // 4051535274
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage, "FetchCowatchViewerPage" }, // 2394668530
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage, "FetchDestinationPage" }, // 3309317859
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage, "FetchLeaderboardEntryPage" }, // 1478913084
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage, "FetchLeaderboardPage" }, // 2706205
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage, "FetchProductPage" }, // 1716257761
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage, "FetchPurchasePage" }, // 955355401
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage, "FetchUserCapabilityPage" }, // 2754845428
-		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage, "FetchUserPage" }, // 1035027822
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementDefinitionPage, "FetchAchievementDefinitionPage" }, // 3959817070
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchAchievementProgressPage, "FetchAchievementProgressPage" }, // 454711693
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchApplicationInvitePage, "FetchApplicationInvitePage" }, // 963897685
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchBlockedUserPage, "FetchBlockedUserPage" }, // 13569494
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengeEntryPage, "FetchChallengeEntryPage" }, // 3324038561
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchChallengePage, "FetchChallengePage" }, // 220533652
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchCowatchViewerPage, "FetchCowatchViewerPage" }, // 3019219382
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchDestinationPage, "FetchDestinationPage" }, // 2386937287
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardEntryPage, "FetchLeaderboardEntryPage" }, // 827633912
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchLeaderboardPage, "FetchLeaderboardPage" }, // 965073032
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchProductPage, "FetchProductPage" }, // 2541227444
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchPurchasePage, "FetchPurchasePage" }, // 2496643864
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserCapabilityPage, "FetchUserCapabilityPage" }, // 3068130808
+		{ &Z_Construct_UFunction_UOvrPageRequestsBlueprintLibrary_FetchUserPage, "FetchUserPage" }, // 1181010163
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOvrPageRequestsBlueprintLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -1904,20 +1960,20 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformPageRequests() {}
 	UOvrPageRequestsBlueprintLibrary::UOvrPageRequestsBlueprintLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOvrPageRequestsBlueprintLibrary);
 	UOvrPageRequestsBlueprintLibrary::~UOvrPageRequestsBlueprintLibrary() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo[] = {
 		{ EOvrForwardArrayIteratorInputPins_StaticEnum, TEXT("EOvrForwardArrayIteratorInputPins"), &Z_Registration_Info_UEnum_EOvrForwardArrayIteratorInputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1055816530U) },
 		{ EOvrBidirectionalArrayIteratorInputPins_StaticEnum, TEXT("EOvrBidirectionalArrayIteratorInputPins"), &Z_Registration_Info_UEnum_EOvrBidirectionalArrayIteratorInputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1753891544U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOvrPageRequestsBlueprintLibrary, UOvrPageRequestsBlueprintLibrary::StaticClass, TEXT("UOvrPageRequestsBlueprintLibrary"), &Z_Registration_Info_UClass_UOvrPageRequestsBlueprintLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOvrPageRequestsBlueprintLibrary), 878126057U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOvrPageRequestsBlueprintLibrary, UOvrPageRequestsBlueprintLibrary::StaticClass, TEXT("UOvrPageRequestsBlueprintLibrary"), &Z_Registration_Info_UClass_UOvrPageRequestsBlueprintLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOvrPageRequestsBlueprintLibrary), 4113242682U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_459148879(TEXT("/Script/OVRPlatform"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_337221293(TEXT("/Script/OVRPlatform"),
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformPageRequests_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

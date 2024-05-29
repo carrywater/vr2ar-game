@@ -1472,10 +1472,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_Response_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_Response = { "Response", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, Response), Z_Construct_UEnum_OVRPlatform_EOvrReportRequestResponse, METADATA_PARAMS(0, nullptr) }; // 1935330300
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_Response = { "Response", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, Response), Z_Construct_UEnum_OVRPlatform_EOvrReportRequestResponse, METADATA_PARAMS(0, nullptr) }; // 201248338
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAbuseReport_ReportRequestHandled_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::NewProp_WorldContextObject,
@@ -1489,12 +1489,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AbuseReport" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The currently running application has indicated they want to show their in-app reporting flow or that they choose to ignore the request. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The currently running application has indicated they want to show their in-app reporting flow or that they choose to ignore the request." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1538,7 +1542,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, Name), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::NewProp_Count = { "Count", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddCount_Parms, Count), METADATA_PARAMS(0, nullptr) };
@@ -1557,12 +1561,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Add 'count' to the achievement with the given name. This must be a COUNT achievement.\n     * The largest number that is supported by this method is the max value of a signed 64-bit integer.\n     * If the number is larger than that, it is clamped to that max value before being passed to\n     * the servers.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Add 'count' to the achievement with the given name. This must be a COUNT achievement.\nThe largest number that is supported by this method is the max value of a signed 64-bit integer.\nIf the number is larger than that, it is clamped to that max value before being passed to\nthe servers." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1606,7 +1614,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, Name), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::NewProp_Fields = { "Fields", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_AddFields_Parms, Fields), METADATA_PARAMS(0, nullptr) };
@@ -1625,12 +1633,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Unlock fields of a BITFIELD achievement.\n     * @param Name - The name of the achievement to unlock\n     * @param Fields - A string containing either '0' or '1' characters. Every '1' will unlock the field in the corresponding position.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unlock fields of a BITFIELD achievement.\n@param Name - The name of the achievement to unlock\n@param Fields - A string containing either '0' or '1' characters. Every '1' will unlock the field in the corresponding position." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1670,7 +1682,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_AchievementDefinitionPages = { "AchievementDefinitionPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, AchievementDefinitionPages), Z_Construct_UScriptStruct_FOvrAchievementDefinitionPages, METADATA_PARAMS(0, nullptr) }; // 1768083220
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllDefinitions_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -1685,12 +1697,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Request all achievement definitions for the app. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Request all achievement definitions for the app." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1730,7 +1746,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_AchievementProgressPages = { "AchievementProgressPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, AchievementProgressPages), Z_Construct_UScriptStruct_FOvrAchievementProgressPages, METADATA_PARAMS(0, nullptr) }; // 3106132836
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetAllProgress_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -1745,12 +1761,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Request the progress for the user on all achievements in the app. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Request the progress for the user on all achievements in the app." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1793,7 +1813,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetDefinitionsByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetDefinitionsByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetDefinitionsByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetDefinitionsByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_Names_Inner = { "Names", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::NewProp_Names = { "Names", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetDefinitionsByName_Parms, Names), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
@@ -1812,12 +1832,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Request the achievement definitions that match the specified names. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Request the achievement definitions that match the specified names." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1860,7 +1884,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetProgressByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetProgressByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetProgressByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetProgressByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_Names_Inner = { "Names", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::NewProp_Names = { "Names", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_GetProgressByName_Parms, Names), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
@@ -1879,12 +1903,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Request the user's progress on the specified achievements. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Request the user's progress on the specified achievements." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1926,7 +1954,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, Name), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::NewProp_AchievementUpdate = { "AchievementUpdate", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAchievements_Unlock_Parms, AchievementUpdate), Z_Construct_UScriptStruct_FOvrAchievementUpdate, METADATA_PARAMS(0, nullptr) }; // 1302941213
@@ -1943,12 +1971,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Achievements" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Unlock the achievement with the given name. This can be of any achievement type. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Unlock the achievement with the given name. This can be of any achievement type." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -1988,9 +2020,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 2840234794
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3347291110
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CancelAppDownload_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::NewProp_WorldContextObject,
@@ -2003,12 +2035,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Cancel an app download that is in progress.\n     * It will return a result when the download is cancelled.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cancel an app download that is in progress.\nIt will return a result when the download is cancelled." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2048,9 +2084,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_AppDownloadProgressResult = { "AppDownloadProgressResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, AppDownloadProgressResult), Z_Construct_UScriptStruct_FOvrAppDownloadProgressResult, METADATA_PARAMS(0, nullptr) }; // 1280256162
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_AppDownloadProgressResult = { "AppDownloadProgressResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, AppDownloadProgressResult), Z_Construct_UScriptStruct_FOvrAppDownloadProgressResult, METADATA_PARAMS(0, nullptr) }; // 416061339
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_CheckAppDownloadProgress_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::NewProp_WorldContextObject,
@@ -2063,12 +2099,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Track download progress for an app */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Track download progress for an app" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2108,9 +2148,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_ApplicationVersion = { "ApplicationVersion", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, ApplicationVersion), Z_Construct_UScriptStruct_FOvrApplicationVersion, METADATA_PARAMS(0, nullptr) }; // 3631926285
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_ApplicationVersion = { "ApplicationVersion", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, ApplicationVersion), Z_Construct_UScriptStruct_FOvrApplicationVersion, METADATA_PARAMS(0, nullptr) }; // 316289836
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_GetVersion_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::NewProp_WorldContextObject,
@@ -2123,12 +2163,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests version information, including the version code and version name of the currently installed app\n     * and version code, version name, size and release date of the latest app update\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests version information, including the version code and version name of the currently installed app\nand version code, version name, size and release date of the latest app update" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2170,10 +2214,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_DeeplinkOptions = { "DeeplinkOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, DeeplinkOptions), Z_Construct_UScriptStruct_FOvrApplicationOptions, METADATA_PARAMS(0, nullptr) }; // 3986119237
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 2840234794
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_DeeplinkOptions = { "DeeplinkOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, DeeplinkOptions), Z_Construct_UScriptStruct_FOvrApplicationOptions, METADATA_PARAMS(0, nullptr) }; // 1165683932
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3347291110
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_InstallAppUpdateAndRelaunch_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::NewProp_WorldContextObject,
@@ -2187,12 +2231,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Installs the app update that was previously downloaded.\n     * Once the install begins the application will exit automatically.\n     * After the installation process is complete, the app will be relaunched\n     * based on the options passed.\n     * @param DeeplinkOptions - Additional configuration for this relaunch. Optional.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Installs the app update that was previously downloaded.\nOnce the install begins the application will exit automatically.\nAfter the installation process is complete, the app will be relaunched\nbased on the options passed.\n@param DeeplinkOptions - Additional configuration for this relaunch. Optional." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2236,10 +2284,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_AppID = { "AppID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, AppID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_DeeplinkOptions = { "DeeplinkOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, DeeplinkOptions), Z_Construct_UScriptStruct_FOvrApplicationOptions, METADATA_PARAMS(0, nullptr) }; // 3986119237
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_AppID = { "AppID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, AppID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_DeeplinkOptions = { "DeeplinkOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, DeeplinkOptions), Z_Construct_UScriptStruct_FOvrApplicationOptions, METADATA_PARAMS(0, nullptr) }; // 1165683932
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_StringPayload = { "StringPayload", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, StringPayload), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_LaunchOtherApp_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::PropPointers[] = {
@@ -2255,12 +2303,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launches a different application in the user's library. If the user\n     * does not have that application installed, they will be taken to that app's\n     * page in the Oculus Store\n     * @param AppID - The ID of the app to launch\n     * @param DeeplinkOptions - Additional configuration for this requests. Optional.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launches a different application in the user's library. If the user\ndoes not have that application installed, they will be taken to that app's\npage in the Oculus Store\n@param AppID - The ID of the app to launch\n@param DeeplinkOptions - Additional configuration for this requests. Optional." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2300,9 +2352,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 2840234794
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_AppDownloadResult = { "AppDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, AppDownloadResult), Z_Construct_UScriptStruct_FOvrAppDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3347291110
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventApplication_StartAppDownload_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::NewProp_WorldContextObject,
@@ -2315,12 +2367,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Application" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Starts an app download.\n     * It will return a result when the download is finished.\n     * Download progress can be monitored using the check_app_download_progress API.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Starts an app download.\nIt will return a result when the download is finished.\nDownload progress can be monitored using the check_app_download_progress API." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2362,10 +2418,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 31060164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 3816828439
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Delete_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::NewProp_WorldContextObject,
@@ -2379,14 +2435,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use AssetFile_DeleteById() */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AssetFile_DeleteById()" },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use AssetFile_DeleteById()" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2428,10 +2488,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 31060164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 3816828439
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteById_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::NewProp_WorldContextObject,
@@ -2445,12 +2505,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Removes an previously installed asset file from the device by its ID.\n     * Returns an object containing the asset ID and file name, and a success flag.\n     * @param AssetFileID - The asset file ID\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes an previously installed asset file from the device by its ID.\nReturns an object containing the asset ID and file name, and a success flag.\n@param AssetFileID - The asset file ID" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2492,10 +2556,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_AssetFileName = { "AssetFileName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, AssetFileName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 31060164
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_AssetFileDeleteResult = { "AssetFileDeleteResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, AssetFileDeleteResult), Z_Construct_UScriptStruct_FOvrAssetFileDeleteResult, METADATA_PARAMS(0, nullptr) }; // 3816828439
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DeleteByName_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::NewProp_WorldContextObject,
@@ -2509,12 +2573,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Removes an previously installed asset file from the device by its name.\n     * Returns an object containing the asset ID and file name, and a success flag.\n     * @param AssetFileName - The asset file name\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Removes an previously installed asset file from the device by its name.\nReturns an object containing the asset ID and file name, and a success flag.\n@param AssetFileName - The asset file name" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2556,10 +2624,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3272200763
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3127454974
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Download_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::NewProp_WorldContextObject,
@@ -2573,14 +2641,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use AssetFile_DownloadById() */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AssetFile_DownloadById()" },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use AssetFile_DownloadById()" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2622,10 +2694,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3272200763
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3127454974
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadById_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::NewProp_WorldContextObject,
@@ -2639,12 +2711,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Downloads an asset file by its ID on demand. Returns an object containing\n     * the asset ID and filepath. Sends periodic\n     * FOvrNotification_AssetFile_DownloadUpdate to track the downloads.\n     * @param AssetFileID - The asset file ID\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Downloads an asset file by its ID on demand. Returns an object containing\nthe asset ID and filepath. Sends periodic\nFOvrNotification_AssetFile_DownloadUpdate to track the downloads.\n@param AssetFileID - The asset file ID" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2686,10 +2762,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_AssetFileName = { "AssetFileName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, AssetFileName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3272200763
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3127454974
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadByName_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::NewProp_WorldContextObject,
@@ -2703,12 +2779,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Downloads an asset file by its name on demand. Returns an object containing\n     * the asset ID and filepath. Sends periodic\n     * {notifications.asset_file.download_update}} to track the downloads.\n     * @param AssetFileName - The asset file name\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Downloads an asset file by its name on demand. Returns an object containing\nthe asset ID and filepath. Sends periodic\n{notifications.asset_file.download_update}} to track the downloads.\n@param AssetFileName - The asset file name" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2750,10 +2830,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 4286740643
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 3963838792
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancel_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::NewProp_WorldContextObject,
@@ -2767,14 +2847,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use AssetFile_DownloadCancelById() */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AssetFile_DownloadCancelById()" },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use AssetFile_DownloadCancelById()" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2816,10 +2900,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 4286740643
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 3963838792
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelById_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::NewProp_WorldContextObject,
@@ -2833,12 +2917,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Cancels a previously spawned download request for an asset file by its ID.\n     * Returns an object containing the asset ID and file path, and a success flag.\n     * @param AssetFileID - The asset file ID\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cancels a previously spawned download request for an asset file by its ID.\nReturns an object containing the asset ID and file path, and a success flag.\n@param AssetFileID - The asset file ID" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2880,10 +2968,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_AssetFileName = { "AssetFileName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, AssetFileName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 4286740643
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_AssetFileDownloadCancelResult = { "AssetFileDownloadCancelResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, AssetFileDownloadCancelResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadCancelResult, METADATA_PARAMS(0, nullptr) }; // 3963838792
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_DownloadCancelByName_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::NewProp_WorldContextObject,
@@ -2897,12 +2985,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Cancels a previously spawned download request for an asset file by its name.\n     * Returns an object containing the asset ID and file path, and a success flag.\n     * @param AssetFileName - The asset file name\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Cancels a previously spawned download request for an asset file by its name.\nReturns an object containing the asset ID and file path, and a success flag.\n@param AssetFileName - The asset file name" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -2943,10 +3035,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_AssetDetailsArray_Inner = { "AssetDetailsArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 973147578
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_AssetDetailsArray = { "AssetDetailsArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, AssetDetailsArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 973147578
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_AssetDetailsArray_Inner = { "AssetDetailsArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 2218843070
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_AssetDetailsArray = { "AssetDetailsArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, AssetDetailsArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 2218843070
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_GetList_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::NewProp_WorldContextObject,
@@ -2960,12 +3052,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns an array of objects with asset file names and their associated IDs,\n     * and and whether it's currently installed.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns an array of objects with asset file names and their associated IDs,\nand and whether it's currently installed." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3007,10 +3103,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 973147578
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 2218843070
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_Status_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::NewProp_WorldContextObject,
@@ -3024,14 +3120,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use AssetFile_StatusById() */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use AssetFile_StatusById()" },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use AssetFile_StatusById()" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3073,10 +3173,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 973147578
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_AssetFileID = { "AssetFileID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, AssetFileID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 2218843070
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusById_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::NewProp_WorldContextObject,
@@ -3090,12 +3190,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns the details on a single asset: ID, file name, and whether it's currently installed\n     * @param AssetFileID - The asset file ID\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the details on a single asset: ID, file name, and whether it's currently installed\n@param AssetFileID - The asset file ID" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3137,10 +3241,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_AssetFileName = { "AssetFileName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, AssetFileName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 973147578
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 2218843070
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAssetFile_StatusByName_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::NewProp_WorldContextObject,
@@ -3154,12 +3258,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|AssetFile" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns the details on a single asset: ID, file name, and whether it's currently installed\n     * @param AssetFileName - The asset file name\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the details on a single asset: ID, file name, and whether it's currently installed\n@param AssetFileName - The asset file name" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3201,10 +3309,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, Options), Z_Construct_UScriptStruct_FOvrAvatarEditorOptions, METADATA_PARAMS(0, nullptr) }; // 1821452396
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_AvatarEditorResult = { "AvatarEditorResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, AvatarEditorResult), Z_Construct_UScriptStruct_FOvrAvatarEditorResult, METADATA_PARAMS(0, nullptr) }; // 4084302072
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, Options), Z_Construct_UScriptStruct_FOvrAvatarEditorOptions, METADATA_PARAMS(0, nullptr) }; // 3442980261
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_AvatarEditorResult = { "AvatarEditorResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, AvatarEditorResult), Z_Construct_UScriptStruct_FOvrAvatarEditorResult, METADATA_PARAMS(0, nullptr) }; // 224017551
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventAvatar_LaunchAvatarEditor_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::NewProp_WorldContextObject,
@@ -3218,12 +3326,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Avatar" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Launches the Avatar Editor */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launches the Avatar Editor" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3267,11 +3379,11 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 1612369313
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 2072678075
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Create_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::NewProp_WorldContextObject,
@@ -3286,14 +3398,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use server-to-server API call instead. */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use server-to-server API call instead." },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use server-to-server API call instead." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3335,10 +3451,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_DeclineInvite_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::NewProp_WorldContextObject,
@@ -3352,12 +3468,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If the current user has an invite to the challenge, decline the invite */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the current user has an invite to the challenge, decline the invite" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3397,9 +3517,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Delete_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::NewProp_WorldContextObject,
@@ -3412,14 +3532,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use server-to-server API call instead. */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use server-to-server API call instead." },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use server-to-server API call instead." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3461,10 +3585,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Get_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::NewProp_WorldContextObject,
@@ -3478,12 +3602,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Gets the information for a single challenge\n     * @param ChallengeID - The id of the challenge whose entries to return.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the information for a single challenge\n@param ChallengeID - The id of the challenge whose entries to return." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3533,14 +3661,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_Filter_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, Filter), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardFilterType, METADATA_PARAMS(0, nullptr) }; // 316971510
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, Filter), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardFilterType, METADATA_PARAMS(0, nullptr) }; // 1930603005
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_StartAt_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 3828624315
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 1888160885
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_ChallengeEntryPages = { "ChallengeEntryPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, ChallengeEntryPages), Z_Construct_UScriptStruct_FOvrChallengeEntryPages, METADATA_PARAMS(0, nullptr) }; // 3366999109
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntries_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::PropPointers[] = {
@@ -3560,12 +3688,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of challenge entries.\n     * @param ChallengeID - The id of the challenge whose entries to return.\n     * @param Limit - Defines the maximum number of entries to return.\n     * @param Filter - By using ovrLeaderboard_FilterFriends, this allows you to filter the returned values to bidirectional followers.\n     * @param StartAt - Defines whether to center the query on the user or start at the top of the challenge.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of challenge entries.\n@param ChallengeID - The id of the challenge whose entries to return.\n@param Limit - Defines the maximum number of entries to return.\n@param Filter - By using ovrLeaderboard_FilterFriends, this allows you to filter the returned values to bidirectional followers.\n@param StartAt - Defines whether to center the query on the user or start at the top of the challenge." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3611,9 +3743,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_AfterRank = { "AfterRank", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, AfterRank), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::NewProp_ChallengeEntryPages = { "ChallengeEntryPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesAfterRank_Parms, ChallengeEntryPages), Z_Construct_UScriptStruct_FOvrChallengeEntryPages, METADATA_PARAMS(0, nullptr) }; // 3366999109
@@ -3632,12 +3764,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of challenge entries.\n     * @param ChallengeID - The id of the challenge whose entries to return.\n     * @param Limit - The maximum number of entries to return.\n     * @param AfterRank - The position after which to start.  For example, 10 returns challenge results starting with the 11th user.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of challenge entries.\n@param ChallengeID - The id of the challenge whose entries to return.\n@param Limit - The maximum number of entries to return.\n@param AfterRank - The position after which to start.  For example, 10 returns challenge results starting with the 11th user." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3687,14 +3823,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_StartAt_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 3828624315
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 1888160885
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_ChallengeEntryPages = { "ChallengeEntryPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, ChallengeEntryPages), Z_Construct_UScriptStruct_FOvrChallengeEntryPages, METADATA_PARAMS(0, nullptr) }; // 3366999109
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetEntriesByIds_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::PropPointers[] = {
@@ -3714,12 +3850,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of challenge entries. Will return only entries matching the user IDs passed in.\n     * @param ChallengeID - The id of the challenge whose entries to return.\n     * @param Limit - Defines the maximum number of entries to return.\n     * @param StartAt - Defines whether to center the query on the user or start at the top of the challenge. If this is EOvrLeaderboardStartAt::CenteredOnViewer or EOvrLeaderboardStartAt::CenteredOnViewerOrTop, then the current user's ID will be automatically added to the query.\n     * @param UserIDs - Defines a list of user ids to get entries for.\n     * @param UserIDLength - The number of user IDs provided.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of challenge entries. Will return only entries matching the user IDs passed in.\n@param ChallengeID - The id of the challenge whose entries to return.\n@param Limit - Defines the maximum number of entries to return.\n@param StartAt - Defines whether to center the query on the user or start at the top of the challenge. If this is EOvrLeaderboardStartAt::CenteredOnViewer or EOvrLeaderboardStartAt::CenteredOnViewerOrTop, then the current user's ID will be automatically added to the query.\n@param UserIDs - Defines a list of user ids to get entries for.\n@param UserIDLength - The number of user IDs provided." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3763,9 +3903,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 1612369313
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 2072678075
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_ChallengePages = { "ChallengePages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, ChallengePages), Z_Construct_UScriptStruct_FOvrChallengePages, METADATA_PARAMS(0, nullptr) }; // 777627842
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_GetList_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -3782,12 +3922,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Requests for a list of challenge */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests for a list of challenge" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3829,10 +3973,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Join_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::NewProp_WorldContextObject,
@@ -3846,12 +3990,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If the current user has permission, join the challenge */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the current user has permission, join the challenge" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3893,10 +4041,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_Leave_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::NewProp_WorldContextObject,
@@ -3910,12 +4058,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If the current user has permission, leave the challenge */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If the current user has permission, leave the challenge" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -3959,11 +4111,11 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 1612369313
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3378157965
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_ChallengeID = { "ChallengeID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, ChallengeID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_ChallengeOptions = { "ChallengeOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, ChallengeOptions), Z_Construct_UScriptStruct_FOvrChallengeOptions, METADATA_PARAMS(0, nullptr) }; // 2072678075
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_Challenge = { "Challenge", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, Challenge), Z_Construct_UScriptStruct_FOvrChallenge, METADATA_PARAMS(0, nullptr) }; // 3352048288
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventChallenges_UpdateInfo_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::NewProp_WorldContextObject,
@@ -3978,14 +4130,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Challenges" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use server-to-server API call instead. */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use server-to-server API call instead." },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use server-to-server API call instead." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4025,7 +4181,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_StringPayload = { "StringPayload", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, StringPayload), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetPresenterData_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -4040,12 +4196,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Presenter data is used to drive a cowatching session. This can be called when there is an active cowatching session. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Presenter data is used to drive a cowatching session. This can be called when there is an active cowatching session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4085,7 +4245,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_CowatchViewerPages = { "CowatchViewerPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, CowatchViewerPages), Z_Construct_UScriptStruct_FOvrCowatchViewerPages, METADATA_PARAMS(0, nullptr) }; // 3213703883
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_GetViewersData_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -4100,12 +4260,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**  Get the viewer data of everyone who is in a cowatching session whose data was set by Cowatching_SetViewerData(). This can be called when there is an active cowatching session. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the viewer data of everyone who is in a cowatching session whose data was set by Cowatching_SetViewerData(). This can be called when there is an active cowatching session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4145,9 +4309,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_CowatchingState = { "CowatchingState", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, CowatchingState), Z_Construct_UScriptStruct_FOvrCowatchingState, METADATA_PARAMS(0, nullptr) }; // 400319384
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_CowatchingState = { "CowatchingState", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, CowatchingState), Z_Construct_UScriptStruct_FOvrCowatchingState, METADATA_PARAMS(0, nullptr) }; // 2504925139
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_IsInSession_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::NewProp_WorldContextObject,
@@ -4160,12 +4324,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Check whether the current user is in the current cowatching session. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Check whether the current user is in the current cowatching session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4203,7 +4371,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_JoinSession_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_JoinSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_JoinSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_JoinSession_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_JoinSession_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::PropPointers[] = {
@@ -4216,12 +4384,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Join the current cowatching session. Viewer data can only be updated by users who are in the session. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Join the current cowatching session. Viewer data can only be updated by users who are in the session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4259,7 +4431,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LaunchInviteDialog_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LaunchInviteDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LaunchInviteDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LaunchInviteDialog_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LaunchInviteDialog_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::PropPointers[] = {
@@ -4272,12 +4444,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**  Launch a dialog for inviting users to cowatch in Copresent Home. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch a dialog for inviting users to cowatch in Copresent Home." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4315,7 +4491,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LeaveSession_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LeaveSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LeaveSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LeaveSession_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_LeaveSession_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::PropPointers[] = {
@@ -4328,12 +4504,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Leave the current cowatching session. Viewer data will no longer be relevant. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Leave the current cowatching session. Viewer data will no longer be relevant." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4371,7 +4551,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_RequestToPresent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_RequestToPresent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_RequestToPresent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_RequestToPresent_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_RequestToPresent_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::PropPointers[] = {
@@ -4384,12 +4564,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Request to start a cowatching session as the presenter while copresent in home. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Request to start a cowatching session as the presenter while copresent in home." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4427,7 +4611,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_ResignFromPresenting_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_ResignFromPresenting_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_ResignFromPresenting_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_ResignFromPresenting_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_ResignFromPresenting_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::PropPointers[] = {
@@ -4440,12 +4624,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Stop being the presenter. This will end the cowatching session. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Stop being the presenter. This will end the cowatching session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4487,7 +4675,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_VideoTitle = { "VideoTitle", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, VideoTitle), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::NewProp_PresenterData = { "PresenterData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetPresenterData_Parms, PresenterData), METADATA_PARAMS(0, nullptr) };
@@ -4504,12 +4692,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the data that drives a cowatching session. This method is only callable by the presenter. Video title cannot exceed 100 characters, and data size is limited to 500 characters. The data will be eventually consistent across all users. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the data that drives a cowatching session. This method is only callable by the presenter. Video title cannot exceed 100 characters, and data size is limited to 500 characters. The data will be eventually consistent across all users." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4549,7 +4741,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_ViewerData = { "ViewerData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, ViewerData), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventCowatching_SetViewerData_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -4564,12 +4756,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Cowatching" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the current user's viewer data to be shared with copresent users. This can be called when there is an active cowatching session. Data size is limited to 500 characters. The data will be eventually consistent across all users. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the current user's viewer data to be shared with copresent users. This can be called when there is an active cowatching session. Data size is limited to 500 characters. The data will be eventually consistent across all users." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4611,7 +4807,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_ChallengeNonce = { "ChallengeNonce", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, ChallengeNonce), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::NewProp_StringPayload = { "StringPayload", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventDeviceApplicationIntegrity_GetIntegrityToken_Parms, StringPayload), METADATA_PARAMS(0, nullptr) };
@@ -4628,12 +4824,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|DeviceApplicationIntegrity" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns Device and Application Integrity Attestation JSON Web Token.\n     * The token has format of header.claims.signature encoded in base64.\n     * Header contains algorithm type (PS256) and token type (JWT).\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns Device and Application Integrity Attestation JSON Web Token.\nThe token has format of header.claims.signature encoded in base64.\nHeader contains algorithm type (PS256) and token type (JWT)." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4671,7 +4871,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventEntitlement_GetIsViewerEntitled_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventEntitlement_GetIsViewerEntitled_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventEntitlement_GetIsViewerEntitled_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventEntitlement_GetIsViewerEntitled_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventEntitlement_GetIsViewerEntitled_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::PropPointers[] = {
@@ -4684,12 +4884,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Entitlement" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns whether the current user is entitled to the current app. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns whether the current user is entitled to the current app." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4727,7 +4931,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Clear_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Clear_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Clear_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Clear_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Clear_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::PropPointers[] = {
@@ -4740,12 +4944,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Clear group presence for running app */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Clear group presence for running app" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4787,9 +4995,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, Options), Z_Construct_UScriptStruct_FOvrInviteOptions, METADATA_PARAMS(0, nullptr) }; // 2007327145
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, Options), Z_Construct_UScriptStruct_FOvrInviteOptions, METADATA_PARAMS(0, nullptr) }; // 1037622282
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_UserPages = { "UserPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, UserPages), Z_Construct_UScriptStruct_FOvrUserPages, METADATA_PARAMS(0, nullptr) }; // 465467618
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetInvitableUsers_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::PropPointers[] = {
@@ -4804,12 +5012,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns a list of users that can be invited to your current lobby. These are pulled from your bidirectional followers and recently met lists. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns a list of users that can be invited to your current lobby. These are pulled from your bidirectional followers and recently met lists." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4849,7 +5061,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_ApplicationInvitePages = { "ApplicationInvitePages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, ApplicationInvitePages), Z_Construct_UScriptStruct_FOvrApplicationInvitePages, METADATA_PARAMS(0, nullptr) }; // 785859825
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_GetSentInvites_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -4864,12 +5076,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Get the application invites which have been sent by the user. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Get the application invites which have been sent by the user." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4911,10 +5127,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, Options), Z_Construct_UScriptStruct_FOvrInviteOptions, METADATA_PARAMS(0, nullptr) }; // 2007327145
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_InvitePanelResultInfo = { "InvitePanelResultInfo", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, InvitePanelResultInfo), Z_Construct_UScriptStruct_FOvrInvitePanelResultInfo, METADATA_PARAMS(0, nullptr) }; // 1835857397
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, Options), Z_Construct_UScriptStruct_FOvrInviteOptions, METADATA_PARAMS(0, nullptr) }; // 1037622282
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_InvitePanelResultInfo = { "InvitePanelResultInfo", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, InvitePanelResultInfo), Z_Construct_UScriptStruct_FOvrInvitePanelResultInfo, METADATA_PARAMS(0, nullptr) }; // 742371840
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchInvitePanel_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::NewProp_WorldContextObject,
@@ -4928,12 +5144,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the flow to allow the user to invite others to their current session.\n     * This can only be used if the user is in a joinable session.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the flow to allow the user to invite others to their current session.\nThis can only be used if the user is in a joinable session." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -4973,9 +5193,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, Options), Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions, METADATA_PARAMS(0, nullptr) }; // 789769650
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, Options), Z_Construct_UScriptStruct_FOvrMultiplayerErrorOptions, METADATA_PARAMS(0, nullptr) }; // 473180997
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchMultiplayerErrorDialog_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::NewProp_WorldContextObject,
@@ -4988,12 +5208,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Launch an error dialog with predefined messages for common multiplayer errors. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch an error dialog with predefined messages for common multiplayer errors." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5039,12 +5263,12 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_LobbySessionId = { "LobbySessionId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, LobbySessionId), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_MatchSessionId = { "MatchSessionId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, MatchSessionId), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_DestinationApiName = { "DestinationApiName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, DestinationApiName), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_RejoinDialogResult = { "RejoinDialogResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, RejoinDialogResult), Z_Construct_UScriptStruct_FOvrRejoinDialogResult, METADATA_PARAMS(0, nullptr) }; // 3039663908
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_RejoinDialogResult = { "RejoinDialogResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, RejoinDialogResult), Z_Construct_UScriptStruct_FOvrRejoinDialogResult, METADATA_PARAMS(0, nullptr) }; // 2145556848
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRejoinDialog_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::NewProp_WorldContextObject,
@@ -5060,12 +5284,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the dialog which will allow the user to rejoin a previous lobby/match. Either the lobby_session_id\n     * or the match_session_id, or both, must be populated.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the dialog which will allow the user to rejoin a previous lobby/match. Either the lobby_session_id\nor the match_session_id, or both, must be populated." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5105,9 +5333,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, Options), Z_Construct_UScriptStruct_FOvrRosterOptions, METADATA_PARAMS(0, nullptr) }; // 756770234
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_Options = { "Options", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, Options), Z_Construct_UScriptStruct_FOvrRosterOptions, METADATA_PARAMS(0, nullptr) }; // 2141004297
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_LaunchRosterPanel_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::NewProp_WorldContextObject,
@@ -5120,12 +5348,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the panel which displays the current users in the roster. Users with the same lobby and match session\n     * id as part of their presence will show up here.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the panel which displays the current users in the roster. Users with the same lobby and match session\nid as part of their presence will show up here." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5168,11 +5400,11 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_SendInvitesResult = { "SendInvitesResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, SendInvitesResult), Z_Construct_UScriptStruct_FOvrSendInvitesResult, METADATA_PARAMS(0, nullptr) }; // 1271097193
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_SendInvitesResult = { "SendInvitesResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, SendInvitesResult), Z_Construct_UScriptStruct_FOvrSendInvitesResult, METADATA_PARAMS(0, nullptr) }; // 2980244539
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SendInvites_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::NewProp_WorldContextObject,
@@ -5187,12 +5419,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Send application invites to the passed in userIDs. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Send application invites to the passed in userIDs." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5232,9 +5468,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_GroupPresenceOptions = { "GroupPresenceOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, GroupPresenceOptions), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions, METADATA_PARAMS(0, nullptr) }; // 3002339038
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_GroupPresenceOptions = { "GroupPresenceOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, GroupPresenceOptions), Z_Construct_UScriptStruct_FOvrGroupPresenceOptions, METADATA_PARAMS(0, nullptr) }; // 2698908294
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_Set_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::NewProp_WorldContextObject,
@@ -5247,12 +5483,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set group presence for running app */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set group presence for running app" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5292,7 +5532,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_DeeplinkMessage = { "DeeplinkMessage", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, DeeplinkMessage), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDeeplinkMessageOverride_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5307,12 +5547,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Set the user's deeplink message while keeping the other group presence parameters the same. If the destination of the user is not set,\n     * the deeplink message cannot be set as there's no deeplink message to override.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the user's deeplink message while keeping the other group presence parameters the same. If the destination of the user is not set,\nthe deeplink message cannot be set as there's no deeplink message to override." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5352,7 +5596,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_ApiName = { "ApiName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, ApiName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetDestination_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5367,12 +5611,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Replaces the user's current destination for the provided one. All other existing group presence parameters will remain the same. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Replaces the user's current destination for the provided one. All other existing group presence parameters will remain the same." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5413,7 +5661,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetIsJoinable_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetIsJoinable_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetIsJoinable_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetIsJoinable_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	void Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::NewProp_IsJoinable_SetBit(void* Obj)
 	{
@@ -5432,12 +5680,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Set if the current user's destination and session is joinable while keeping the other group presence\n     * parameters the same. If the destination or session ids of the user is not set, they cannot be set to joinable.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set if the current user's destination and session is joinable while keeping the other group presence\nparameters the same. If the destination or session ids of the user is not set, they cannot be set to joinable." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5477,7 +5729,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_Id = { "Id", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, Id), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetLobbySession_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5492,12 +5744,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Replaces the user's current lobby session id for the provided one. All other existing group presence parameters will remain the same. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Replaces the user's current lobby session id for the provided one. All other existing group presence parameters will remain the same." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5537,7 +5793,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_Id = { "Id", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, Id), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventGroupPresence_SetMatchSession_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5552,12 +5808,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|GroupPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Replaces the user's current match session id for the provided one. All other existing group presence parameters will remain the same. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Replaces the user's current match session id for the provided one. All other existing group presence parameters will remain the same." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5597,7 +5857,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_Sku = { "Sku", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, Sku), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_ConsumePurchase_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5612,12 +5872,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|IAP" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Allow the consumable IAP product to be purchased again. Conceptually, this\n     * indicates that the item was used or consumed.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Allow the consumable IAP product to be purchased again. Conceptually, this\nindicates that the item was used or consumed." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5660,7 +5924,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetProductsBySKU_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetProductsBySKU_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetProductsBySKU_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetProductsBySKU_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_Skus_Inner = { "Skus", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::NewProp_Skus = { "Skus", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetProductsBySKU_Parms, Skus), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
@@ -5679,12 +5943,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|IAP" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Retrieve a list of IAP products that can be purchased.\n     * @param Skus - The SKUs of the products to retrieve.\n     * @param Count - Number of items you provided in the SKUs.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve a list of IAP products that can be purchased.\n@param Skus - The SKUs of the products to retrieve.\n@param Count - Number of items you provided in the SKUs." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5724,7 +5992,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_PurchasePages = { "PurchasePages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, PurchasePages), Z_Construct_UScriptStruct_FOvrPurchasePages, METADATA_PARAMS(0, nullptr) }; // 1922777870
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchases_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5739,12 +6007,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|IAP" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Retrieve a list of Purchase that the Logged-In-User has made. This list will\n     * also contain consumable purchases that have not been consumed.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve a list of Purchase that the Logged-In-User has made. This list will\nalso contain consumable purchases that have not been consumed." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5784,7 +6056,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_PurchasePages = { "PurchasePages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, PurchasePages), Z_Construct_UScriptStruct_FOvrPurchasePages, METADATA_PARAMS(0, nullptr) }; // 1922777870
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_GetViewerPurchasesDurableCache_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -5799,12 +6071,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|IAP" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Retrieve a list of Purchase that the Logged-In-User has made. This list will only contain\n     * durable purchase (non-consumable) and is populated from a device cache. It is recommended in\n     * all cases to use ovr_User_GetViewerPurchases first and only check the cache if that fails.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve a list of Purchase that the Logged-In-User has made. This list will only contain\ndurable purchase (non-consumable) and is populated from a device cache. It is recommended in\nall cases to use ovr_User_GetViewerPurchases first and only check the cache if that fails." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5846,7 +6122,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_Sku = { "Sku", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, Sku), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::NewProp_Purchase = { "Purchase", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventIAP_LaunchCheckoutFlow_Parms, Purchase), Z_Construct_UScriptStruct_FOvrPurchase, METADATA_PARAMS(0, nullptr) }; // 4039725620
@@ -5863,12 +6139,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|IAP" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the checkout flow to purchase the existing product. Oculus Home tries\n     * handle and fix as many errors as possible. Home returns the appropriate error\n     * message and how to resolveit, if possible. Returns a purchase on success, empty\n     * purchase on cancel, and an error on error.\n     * @param Sku - IAP sku for the item the user wishes to purchase.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the checkout flow to purchase the existing product. Oculus Home tries\nhandle and fix as many errors as possible. Home returns the appropriate error\nmessage and how to resolveit, if possible. Returns a purchase on success, empty\npurchase on cancel, and an error on error.\n@param Sku - IAP sku for the item the user wishes to purchase." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5908,9 +6188,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 973147578
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_AssetDetails = { "AssetDetails", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, AssetDetails), Z_Construct_UScriptStruct_FOvrAssetDetails, METADATA_PARAMS(0, nullptr) }; // 2218843070
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_GetCurrent_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::NewProp_WorldContextObject,
@@ -5923,12 +6203,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|LanguagePack" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns currently installed and selected language pack for an app in the\n     * view of the `asset_details`. Use `language` field to extract neeeded\n     * language info.\n     * A particular language can be download and installed by a user from\n     * the Oculus app on the application page.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns currently installed and selected language pack for an app in the\nview of the `asset_details`. Use `language` field to extract neeeded\nlanguage info.\nA particular language can be download and installed by a user from\nthe Oculus app on the application page." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -5970,10 +6254,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_Tag = { "Tag", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, Tag), METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3272200763
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_AssetFileDownloadResult = { "AssetFileDownloadResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, AssetFileDownloadResult), Z_Construct_UScriptStruct_FOvrAssetFileDownloadResult, METADATA_PARAMS(0, nullptr) }; // 3127454974
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLanguagePack_SetCurrent_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::NewProp_WorldContextObject,
@@ -5987,12 +6271,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|LanguagePack" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Sets the current language to specified. The parameter is the BCP47 language tag.\n     * If a language pack is not downloaded yet, spawns automatically the\n     * AssetFile_DownloadByName() request, and sends periodic\n     * FOvrNotification_AssetFile_DownloadUpdate to track the downloads.\n     * Once the language asset file is downloaded, call LanguagePack_GetCurrent()\n     * to retrive the data, and use the language at runtime.\n     * @param Tag - BCP47 language tag\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the current language to specified. The parameter is the BCP47 language tag.\nIf a language pack is not downloaded yet, spawns automatically the\nAssetFile_DownloadByName() request, and sends periodic\nFOvrNotification_AssetFile_DownloadUpdate to track the downloads.\nOnce the language asset file is downloaded, call LanguagePack_GetCurrent()\nto retrive the data, and use the language at runtime.\n@param Tag - BCP47 language tag" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6034,7 +6322,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::NewProp_LeaderboardPages = { "LeaderboardPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_Get_Parms, LeaderboardPages), Z_Construct_UScriptStruct_FOvrLeaderboardPages, METADATA_PARAMS(0, nullptr) }; // 3443071613
@@ -6051,12 +6339,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Gets the information for a single leaderboard\n     * @param LeaderboardName - The name of the leaderboard to return.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets the information for a single leaderboard\n@param LeaderboardName - The name of the leaderboard to return." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6106,14 +6398,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_Filter_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, Filter), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardFilterType, METADATA_PARAMS(0, nullptr) }; // 316971510
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_Filter = { "Filter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, Filter), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardFilterType, METADATA_PARAMS(0, nullptr) }; // 1930603005
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_StartAt_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 3828624315
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 1888160885
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_LeaderboardEntryPages = { "LeaderboardEntryPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, LeaderboardEntryPages), Z_Construct_UScriptStruct_FOvrLeaderboardEntryPages, METADATA_PARAMS(0, nullptr) }; // 3276399142
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntries_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::PropPointers[] = {
@@ -6133,12 +6425,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of leaderboard entries.\n     * @param LeaderboardName - The name of the leaderboard whose entries to return.\n     * @param Limit - Defines the maximum number of entries to return.\n     * @param Filter - By using ovrLeaderboard_FilterFriends, this allows you to filter the returned values to bidirectional followers.\n     * @param StartAt - Defines whether to center the query on the user or start at the top of the leaderboard.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of leaderboard entries.\n@param LeaderboardName - The name of the leaderboard whose entries to return.\n@param Limit - Defines the maximum number of entries to return.\n@param Filter - By using ovrLeaderboard_FilterFriends, this allows you to filter the returned values to bidirectional followers.\n@param StartAt - Defines whether to center the query on the user or start at the top of the leaderboard." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6184,7 +6480,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesAfterRank_Parms, Limit), METADATA_PARAMS(0, nullptr) };
@@ -6205,12 +6501,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of leaderboard entries.\n     * @param LeaderboardName - The name of the leaderboard.\n     * @param Limit - The maximum number of entries to return.\n     * @param AfterRank - The position after which to start.  For example, 10 returns leaderboard results starting with the 11th user.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of leaderboard entries.\n@param LeaderboardName - The name of the leaderboard.\n@param Limit - The maximum number of entries to return.\n@param AfterRank - The position after which to start.  For example, 10 returns leaderboard results starting with the 11th user." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6260,14 +6560,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_Limit = { "Limit", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, Limit), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_StartAt_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 3828624315
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_StartAt = { "StartAt", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, StartAt), Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardStartAt, METADATA_PARAMS(0, nullptr) }; // 1888160885
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_UserIDs_Inner = { "UserIDs", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_UserIDs = { "UserIDs", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, UserIDs), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_LeaderboardEntryPages = { "LeaderboardEntryPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, LeaderboardEntryPages), Z_Construct_UScriptStruct_FOvrLeaderboardEntryPages, METADATA_PARAMS(0, nullptr) }; // 3276399142
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_GetEntriesByIds_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::PropPointers[] = {
@@ -6287,12 +6587,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Requests a block of leaderboard entries. Will return only entries matching the user IDs passed in.\n     * @param LeaderboardName - The name of the leaderboard whose entries to return.\n     * @param Limit - Defines the maximum number of entries to return.\n     * @param StartAt - Defines whether to center the query on the user or start at the top of the leaderboard. If this is EOvrLeaderboardStartAt::CenteredOnViewer or EOvrLeaderboardStartAt::CenteredOnViewerOrTop, then the current user's ID will be automatically added to the query.\n     * @param UserIDs - Defines a list of user ids to get entries for.\n     * @param UserIDLength - The number of user IDs provided.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests a block of leaderboard entries. Will return only entries matching the user IDs passed in.\n@param LeaderboardName - The name of the leaderboard whose entries to return.\n@param Limit - Defines the maximum number of entries to return.\n@param StartAt - Defines whether to center the query on the user or start at the top of the leaderboard. If this is EOvrLeaderboardStartAt::CenteredOnViewer or EOvrLeaderboardStartAt::CenteredOnViewerOrTop, then the current user's ID will be automatically added to the query.\n@param UserIDs - Defines a list of user ids to get entries for.\n@param UserIDLength - The number of user IDs provided." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6342,7 +6646,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_Score = { "Score", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, Score), METADATA_PARAMS(0, nullptr) };
@@ -6353,7 +6657,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 		((OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms*)Obj)->ForceUpdate = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_ForceUpdate = { "ForceUpdate", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms), &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_ForceUpdate_SetBit, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_LeaderboardUpdateStatus = { "LeaderboardUpdateStatus", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, LeaderboardUpdateStatus), Z_Construct_UScriptStruct_FOvrLeaderboardUpdateStatus, METADATA_PARAMS(0, nullptr) }; // 4141554894
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_LeaderboardUpdateStatus = { "LeaderboardUpdateStatus", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, LeaderboardUpdateStatus), Z_Construct_UScriptStruct_FOvrLeaderboardUpdateStatus, METADATA_PARAMS(0, nullptr) }; // 3244474633
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntry_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::NewProp_WorldContextObject,
@@ -6371,12 +6675,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Writes a single entry to a leaderboard.\n     * @param LeaderboardName - The leaderboard for which to write the entry.\n     * @param Score - The score to write.\n     * @param ExtraData - A 2KB custom data field that is associated with the leaderboard entry. This can be a game replay or anything that provides more detail about the entry to the viewer.\n     * @param ExtraDataLength - The length of the extra data.\n     * @param ForceUpdate - If true, the score always updates.  This happens even if it is not the user's best score.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Writes a single entry to a leaderboard.\n@param LeaderboardName - The leaderboard for which to write the entry.\n@param Score - The score to write.\n@param ExtraData - A 2KB custom data field that is associated with the leaderboard entry. This can be a game replay or anything that provides more detail about the entry to the viewer.\n@param ExtraDataLength - The length of the extra data.\n@param ForceUpdate - If true, the score always updates.  This happens even if it is not the user's best score." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6428,7 +6736,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_LeaderboardName = { "LeaderboardName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, LeaderboardName), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_Score = { "Score", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, Score), METADATA_PARAMS(0, nullptr) };
@@ -6440,7 +6748,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 		((OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms*)Obj)->ForceUpdate = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_ForceUpdate = { "ForceUpdate", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms), &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_ForceUpdate_SetBit, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_LeaderboardUpdateStatus = { "LeaderboardUpdateStatus", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, LeaderboardUpdateStatus), Z_Construct_UScriptStruct_FOvrLeaderboardUpdateStatus, METADATA_PARAMS(0, nullptr) }; // 4141554894
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_LeaderboardUpdateStatus = { "LeaderboardUpdateStatus", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, LeaderboardUpdateStatus), Z_Construct_UScriptStruct_FOvrLeaderboardUpdateStatus, METADATA_PARAMS(0, nullptr) }; // 3244474633
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventLeaderboard_WriteEntryWithSupplementaryMetric_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::NewProp_WorldContextObject,
@@ -6459,12 +6767,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Leaderboard" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Writes a single entry to a leaderboard, can include supplementary metrics\n     * @param LeaderboardName - The leaderboard for which to write the entry.\n     * @param Score - The score to write.\n     * @param SupplementaryMetric - A metric that can be used for tiebreakers.\n     * @param ExtraData - A 2KB custom data field that is associated with the leaderboard entry. This can be a game replay or anything that provides more detail about the entry to the viewer.\n     * @param ExtraDataLength - The length of the extra data.\n     * @param ForceUpdate - If true, the score always updates. This happens ecen if it is not the user's best score.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Writes a single entry to a leaderboard, can include supplementary metrics\n@param LeaderboardName - The leaderboard for which to write the entry.\n@param Score - The score to write.\n@param SupplementaryMetric - A metric that can be used for tiebreakers.\n@param ExtraData - A 2KB custom data field that is associated with the leaderboard entry. This can be a game replay or anything that provides more detail about the entry to the viewer.\n@param ExtraDataLength - The length of the extra data.\n@param ForceUpdate - If true, the score always updates. This happens ecen if it is not the user's best score." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6511,13 +6823,13 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_PostTextSuggestion = { "PostTextSuggestion", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, PostTextSuggestion), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_FilePath = { "FilePath", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, FilePath), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ContentType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, ContentType), Z_Construct_UEnum_OVRPlatform_EOvrMediaContentType, METADATA_PARAMS(0, nullptr) }; // 2268527934
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ShareMediaResult = { "ShareMediaResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, ShareMediaResult), Z_Construct_UScriptStruct_FOvrShareMediaResult, METADATA_PARAMS(0, nullptr) }; // 1029493027
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ContentType = { "ContentType", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, ContentType), Z_Construct_UEnum_OVRPlatform_EOvrMediaContentType, METADATA_PARAMS(0, nullptr) }; // 3375720924
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ShareMediaResult = { "ShareMediaResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, ShareMediaResult), Z_Construct_UScriptStruct_FOvrShareMediaResult, METADATA_PARAMS(0, nullptr) }; // 1117362974
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventMedia_ShareToFacebook_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::NewProp_WorldContextObject,
@@ -6534,12 +6846,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Media" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     *  Launch the Share to Facebook modal via a deeplink to Home on Gear VR, allowing users to share local media files to Facebook.\n     * Accepts a postTextSuggestion string for the default text of the Facebook post.\n     * Requires a filePath string as the path to the image to be shared to Facebook. This image should be located in your app's internal storage directory.\n     * Requires a contentType indicating the type of media to be shared (only 'photo' is currently supported.) \n     * @param PostTextSuggestion - this text will prepopulate the facebook status text-input box within the share modal\n     * @param FilePath - path to the file to be shared to facebook\n     * @param ContentType - content type of the media to be shared\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the Share to Facebook modal via a deeplink to Home on Gear VR, allowing users to share local media files to Facebook.\nAccepts a postTextSuggestion string for the default text of the Facebook post.\nRequires a filePath string as the path to the image to be shared to Facebook. This image should be located in your app's internal storage directory.\nRequires a contentType indicating the type of media to be shared (only 'photo' is currently supported.)\n@param PostTextSuggestion - this text will prepopulate the facebook status text-input box within the share modal\n@param FilePath - path to the file to be shared to facebook\n@param ContentType - content type of the media to be shared" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6579,9 +6895,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_NotificationID = { "NotificationID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, NotificationID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_NotificationID = { "NotificationID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, NotificationID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventNotification_MarkAsRead_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::NewProp_WorldContextObject,
@@ -6594,12 +6910,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Notification" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Mark a notification as read. This causes it to disappear from the\n     * Universal Menu, the Oculus App, Oculus Home, and in-app retrieval.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mark a notification as read. This causes it to disappear from the\nUniversal Menu, the Oculus App, Oculus Home, and in-app retrieval." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6639,9 +6959,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_Party = { "Party", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, Party), Z_Construct_UScriptStruct_FOvrParty, METADATA_PARAMS(0, nullptr) }; // 513585336
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_Party = { "Party", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, Party), Z_Construct_UScriptStruct_FOvrParty, METADATA_PARAMS(0, nullptr) }; // 3821760799
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventParty_GetCurrent_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::NewProp_WorldContextObject,
@@ -6654,12 +6974,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Party" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Load the party the current user is in. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load the party the current user is in." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6697,7 +7021,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Clear_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Clear_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Clear_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Clear_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Clear_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::PropPointers[] = {
@@ -6710,14 +7034,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|RichPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use the clear method in group presence */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use the clear method in group presence" },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use the clear method in group presence" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6757,7 +7085,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_DestinationPages = { "DestinationPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, DestinationPages), Z_Construct_UScriptStruct_FOvrDestinationPages, METADATA_PARAMS(0, nullptr) }; // 2950092053
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_GetDestinations_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -6772,12 +7100,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|RichPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Gets all the destinations that the presence can be set to */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets all the destinations that the presence can be set to" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6817,9 +7149,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_RichPresenceOptions = { "RichPresenceOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, RichPresenceOptions), Z_Construct_UScriptStruct_FOvrRichPresenceOptions, METADATA_PARAMS(0, nullptr) }; // 3689340698
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_RichPresenceOptions = { "RichPresenceOptions", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, RichPresenceOptions), Z_Construct_UScriptStruct_FOvrRichPresenceOptions, METADATA_PARAMS(0, nullptr) }; // 3730790537
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventRichPresence_Set_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::NewProp_WorldContextObject,
@@ -6832,14 +7164,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|RichPresence" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** DEPRECATED. Use GroupPresence_Set(). */" },
+#endif
 		{ "DeprecatedFunction", "" },
 		{ "DeprecationMessage", "Use GroupPresence_Set()." },
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DEPRECATED. Use GroupPresence_Set()." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6881,10 +7217,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_User = { "User", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, User), Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 3492099271
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_User = { "User", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, User), Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 1079139872
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_Get_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::NewProp_WorldContextObject,
@@ -6898,12 +7234,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Retrieve the user with the given ID. This might fail if the ID is invalid\n     * or the user is blocked.\n     * \n     * NOTE: Users will have a unique ID per application.\n     * @param UserID - User ID retrieved with this application.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve the user with the given ID. This might fail if the ID is invalid\nor the user is blocked.\n\nNOTE: Users will have a unique ID per application.\n@param UserID - User ID retrieved with this application." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -6943,7 +7283,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_StringPayload = { "StringPayload", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, StringPayload), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetAccessToken_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -6958,12 +7298,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Return an access token for this user, suitable for making REST calls against graph.oculus.com. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return an access token for this user, suitable for making REST calls against graph.oculus.com." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7003,7 +7347,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_BlockedUserPages = { "BlockedUserPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, BlockedUserPages), Z_Construct_UScriptStruct_FOvrBlockedUserPages, METADATA_PARAMS(0, nullptr) }; // 3072931637
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetBlockedUsers_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -7018,12 +7362,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Return the IDs of users entitled to use the current app that are blocked by the specified user */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Return the IDs of users entitled to use the current app that are blocked by the specified user" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7063,9 +7411,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_User = { "User", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, User), Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 3492099271
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_User = { "User", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, User), Z_Construct_UScriptStruct_FOvrUser, METADATA_PARAMS(0, nullptr) }; // 1079139872
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUser_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::NewProp_WorldContextObject,
@@ -7078,12 +7426,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Retrieve the currently signed in user.  This call is available offline.\n     * \n     * \n     * NOTE: This will not return the user's presence as it should always be 'online'\n     * in your application.\n     * \n     * \n     * NOTE: Users will have a unique ID per application.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve the currently signed in user.  This call is available offline.\n\n\nNOTE: This will not return the user's presence as it should always be 'online'\nin your application.\n\n\nNOTE: Users will have a unique ID per application." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7123,7 +7475,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_UserPages = { "UserPages", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, UserPages), Z_Construct_UScriptStruct_FOvrUserPages, METADATA_PARAMS(0, nullptr) }; // 465467618
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetLoggedInUserFriends_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -7138,12 +7490,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Retrieve a list of the logged in user's bidirectional followers. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve a list of the logged in user's bidirectional followers." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7185,10 +7541,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_OrgScopedID = { "OrgScopedID", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, OrgScopedID), Z_Construct_UScriptStruct_FOvrOrgScopedID, METADATA_PARAMS(0, nullptr) }; // 2237332728
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_OrgScopedID = { "OrgScopedID", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, OrgScopedID), Z_Construct_UScriptStruct_FOvrOrgScopedID, METADATA_PARAMS(0, nullptr) }; // 2829650024
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetOrgScopedID_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::NewProp_WorldContextObject,
@@ -7202,12 +7558,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * returns an ovrID which is unique per org. allows different apps within the same\n     * org to identify the user. \n     * @param UserID - to load the org scoped id of\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "returns an ovrID which is unique per org. allows different apps within the same\norg to identify the user.\n@param UserID - to load the org scoped id of" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7248,10 +7608,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_SdkAccountArray_Inner = { "SdkAccountArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrSdkAccount, METADATA_PARAMS(0, nullptr) }; // 506249470
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_SdkAccountArray = { "SdkAccountArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, SdkAccountArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 506249470
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_SdkAccountArray_Inner = { "SdkAccountArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FOvrSdkAccount, METADATA_PARAMS(0, nullptr) }; // 4221802114
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_SdkAccountArray = { "SdkAccountArray", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, SdkAccountArray), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) }; // 4221802114
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetSdkAccounts_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::NewProp_WorldContextObject,
@@ -7265,12 +7625,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Returns all accounts belonging to this user.\n     * Accounts are the Oculus user and x-users that are linked to this user.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns all accounts belonging to this user.\nAccounts are the Oculus user and x-users that are linked to this user." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7310,7 +7674,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_UserProof = { "UserProof", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, UserProof), Z_Construct_UScriptStruct_FOvrUserProof, METADATA_PARAMS(0, nullptr) }; // 2552146695
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_GetUserProof_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -7325,12 +7689,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Part of the scheme to confirm the identity of a particular user in your backend.\n     * You can pass the result of User_GetUserProof() and a user ID from\n     * User_Get() to your your backend. Your server can then use our api\n     * to verify identity.\n     * 'https://graph.oculus.com/user_nonce_validate?nonce=USER_PROOF&amp;user_id=USER_ID&amp;access_token=ACCESS_TOKEN'\n     * \n     * \n     * NOTE: The nonce is only good for one check and then it is invalidated.\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Part of the scheme to confirm the identity of a particular user in your backend.\nYou can pass the result of User_GetUserProof() and a user ID from\nUser_Get() to your your backend. Your server can then use our api\nto verify identity.\n'https://graph.oculus.com/user_nonce_validate?nonce=USER_PROOF&amp;user_id=USER_ID&amp;access_token=ACCESS_TOKEN'\n\n\nNOTE: The nonce is only good for one check and then it is invalidated." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7372,10 +7740,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_LaunchBlockFlowResult = { "LaunchBlockFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, LaunchBlockFlowResult), Z_Construct_UScriptStruct_FOvrLaunchBlockFlowResult, METADATA_PARAMS(0, nullptr) }; // 1354395937
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_LaunchBlockFlowResult = { "LaunchBlockFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, LaunchBlockFlowResult), Z_Construct_UScriptStruct_FOvrLaunchBlockFlowResult, METADATA_PARAMS(0, nullptr) }; // 2312494583
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchBlockFlow_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::NewProp_WorldContextObject,
@@ -7389,12 +7757,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the flow for blocking the given user. You can't follow, be followed, invited,\n     *  or searched by a blocked user, for example. You can remove the block via\n     *  ovr_User_LaunchUnblockFlow.\n     * @param UserID - User ID of user being blocked\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the flow for blocking the given user. You can't follow, be followed, invited,\n or searched by a blocked user, for example. You can remove the block via\n ovr_User_LaunchUnblockFlow.\n@param UserID - User ID of user being blocked" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7436,10 +7808,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_LaunchFriendRequestFlowResult = { "LaunchFriendRequestFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, LaunchFriendRequestFlowResult), Z_Construct_UScriptStruct_FOvrLaunchFriendRequestFlowResult, METADATA_PARAMS(0, nullptr) }; // 28146517
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_LaunchFriendRequestFlowResult = { "LaunchFriendRequestFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, LaunchFriendRequestFlowResult), Z_Construct_UScriptStruct_FOvrLaunchFriendRequestFlowResult, METADATA_PARAMS(0, nullptr) }; // 2313925815
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchFriendRequestFlow_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::NewProp_WorldContextObject,
@@ -7453,12 +7825,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the flow for sending a follow request to a user.\n     * @param UserID - User ID of user to send a follow request to\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the flow for sending a follow request to a user.\n@param UserID - User ID of user to send a follow request to" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7500,10 +7876,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 1486140189
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_LaunchUnblockFlowResult = { "LaunchUnblockFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, LaunchUnblockFlowResult), Z_Construct_UScriptStruct_FOvrLaunchUnblockFlowResult, METADATA_PARAMS(0, nullptr) }; // 1916988926
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, UserID), Z_Construct_UScriptStruct_FOvrId, METADATA_PARAMS(0, nullptr) }; // 3840939361
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_LaunchUnblockFlowResult = { "LaunchUnblockFlowResult", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, LaunchUnblockFlowResult), Z_Construct_UScriptStruct_FOvrLaunchUnblockFlowResult, METADATA_PARAMS(0, nullptr) }; // 3559302584
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUser_LaunchUnblockFlow_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::NewProp_WorldContextObject,
@@ -7517,12 +7893,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|User" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n     * Launch the flow for unblocking a user that the viewer has blocked.\n     * @param UserID - User ID of user to unblock\n     */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Launch the flow for unblocking a user that the viewer has blocked.\n@param UserID - User ID of user to unblock" },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7562,9 +7942,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_UserAccountAgeCategory = { "UserAccountAgeCategory", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, UserAccountAgeCategory), Z_Construct_UScriptStruct_FOvrUserAccountAgeCategory, METADATA_PARAMS(0, nullptr) }; // 1483080340
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_UserAccountAgeCategory = { "UserAccountAgeCategory", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, UserAccountAgeCategory), Z_Construct_UScriptStruct_FOvrUserAccountAgeCategory, METADATA_PARAMS(0, nullptr) }; // 2219746624
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Get_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::NewProp_WorldContextObject,
@@ -7577,12 +7957,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|UserAgeCategory" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Retrieve the user age category for the current user. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieve the user age category for the current user." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7623,10 +8007,10 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_AgeCategory_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_AgeCategory = { "AgeCategory", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, AgeCategory), Z_Construct_UEnum_OVRPlatform_EOvrAppAgeCategory, METADATA_PARAMS(0, nullptr) }; // 2635193003
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_AgeCategory = { "AgeCategory", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, AgeCategory), Z_Construct_UEnum_OVRPlatform_EOvrAppAgeCategory, METADATA_PARAMS(0, nullptr) }; // 4237146453
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventUserAgeCategory_Report_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::NewProp_WorldContextObject,
@@ -7640,12 +8024,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|UserAgeCategory" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Report the current user's age category to Meta. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Report the current user's age category to Meta." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7685,7 +8073,7 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_MicrophoneAvailabilityState = { "MicrophoneAvailabilityState", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, MicrophoneAvailabilityState), Z_Construct_UScriptStruct_FOvrMicrophoneAvailabilityState, METADATA_PARAMS(0, nullptr) }; // 1422895156
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_GetMicrophoneAvailability_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
@@ -7700,12 +8088,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Voip" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Gets whether the microphone is currently available to the app. This can be used to show if the user's voice is able to be heard by other users. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Gets whether the microphone is currently available to the app. This can be used to show if the user's voice is able to be heard by other users." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7748,14 +8140,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_OutExecs_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 3276987296
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_OutExecs = { "OutExecs", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, OutExecs), Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins, METADATA_PARAMS(0, nullptr) }; // 2139161085
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_LatentInfo = { "LatentInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, LatentInfo), Z_Construct_UScriptStruct_FLatentActionInfo, METADATA_PARAMS(0, nullptr) }; // 2674470931
 	void Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_Suppressed_SetBit(void* Obj)
 	{
 		((OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms*)Obj)->Suppressed = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_Suppressed = { "Suppressed", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms), &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_Suppressed_SetBit, METADATA_PARAMS(0, nullptr) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_SystemVoipState = { "SystemVoipState", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, SystemVoipState), Z_Construct_UScriptStruct_FOvrSystemVoipState, METADATA_PARAMS(0, nullptr) }; // 2861787576
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_SystemVoipState = { "SystemVoipState", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, SystemVoipState), Z_Construct_UScriptStruct_FOvrSystemVoipState, METADATA_PARAMS(0, nullptr) }; // 4042033222
 	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(OvrRequestsBlueprintLibrary_eventVoip_SetSystemVoipSuppressed_Parms, ErrorMsg), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::NewProp_WorldContextObject,
@@ -7769,12 +8161,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed_Statics::Function_MetaDataParams[] = {
 		{ "Category", "OvrPlatform|Voip" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets whether SystemVoip should be suppressed so that this app's Voip can use the mic and play incoming Voip audio. Once microphone switching functionality for the user is released, this function will no longer work. You can use get_microphone_availability to see if the user has allowed the app access to the microphone. */" },
+#endif
 		{ "ExpandEnumAsExecs", "OutExecs" },
 		{ "Latent", "" },
 		{ "LatentInfo", "LatentInfo" },
 		{ "ModuleRelativePath", "Public/OVRPlatformRequests.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets whether SystemVoip should be suppressed so that this app's Voip can use the mic and play incoming Voip audio. Once microphone switching functionality for the user is released, this function will no longer work. You can use get_microphone_availability to see if the user has allowed the app access to the microphone." },
+#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -7811,105 +8207,105 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOvrRequestsBlueprintLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UOvrRequestsBlueprintLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled, "AbuseReport_ReportRequestHandled" }, // 1852844459
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount, "Achievements_AddCount" }, // 3759039080
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields, "Achievements_AddFields" }, // 3457712263
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions, "Achievements_GetAllDefinitions" }, // 2492692390
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress, "Achievements_GetAllProgress" }, // 3668579190
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName, "Achievements_GetDefinitionsByName" }, // 3405658617
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName, "Achievements_GetProgressByName" }, // 1746001340
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock, "Achievements_Unlock" }, // 4127329845
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload, "Application_CancelAppDownload" }, // 1914343281
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress, "Application_CheckAppDownloadProgress" }, // 1521108194
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion, "Application_GetVersion" }, // 2842723975
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch, "Application_InstallAppUpdateAndRelaunch" }, // 65502372
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp, "Application_LaunchOtherApp" }, // 3329766381
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload, "Application_StartAppDownload" }, // 2360275846
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete, "AssetFile_Delete" }, // 2418544988
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById, "AssetFile_DeleteById" }, // 4118661741
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName, "AssetFile_DeleteByName" }, // 3164139944
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download, "AssetFile_Download" }, // 2056995185
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById, "AssetFile_DownloadById" }, // 1462761028
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName, "AssetFile_DownloadByName" }, // 4088891324
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel, "AssetFile_DownloadCancel" }, // 2696759671
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById, "AssetFile_DownloadCancelById" }, // 502307608
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName, "AssetFile_DownloadCancelByName" }, // 1724564850
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList, "AssetFile_GetList" }, // 3695089141
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status, "AssetFile_Status" }, // 121653780
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById, "AssetFile_StatusById" }, // 972439505
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName, "AssetFile_StatusByName" }, // 1910739961
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor, "Avatar_LaunchAvatarEditor" }, // 2311807976
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create, "Challenges_Create" }, // 977686919
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite, "Challenges_DeclineInvite" }, // 896103002
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete, "Challenges_Delete" }, // 727136881
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get, "Challenges_Get" }, // 785828066
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries, "Challenges_GetEntries" }, // 2883370558
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank, "Challenges_GetEntriesAfterRank" }, // 1805271509
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds, "Challenges_GetEntriesByIds" }, // 1460026061
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList, "Challenges_GetList" }, // 38191343
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join, "Challenges_Join" }, // 2872914659
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave, "Challenges_Leave" }, // 3905651564
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo, "Challenges_UpdateInfo" }, // 539393835
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData, "Cowatching_GetPresenterData" }, // 4118491051
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData, "Cowatching_GetViewersData" }, // 1786117380
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession, "Cowatching_IsInSession" }, // 1372168481
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession, "Cowatching_JoinSession" }, // 3641939992
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog, "Cowatching_LaunchInviteDialog" }, // 663615768
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession, "Cowatching_LeaveSession" }, // 3576607191
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent, "Cowatching_RequestToPresent" }, // 426564573
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting, "Cowatching_ResignFromPresenting" }, // 2048342
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData, "Cowatching_SetPresenterData" }, // 4284586253
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData, "Cowatching_SetViewerData" }, // 3684689405
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken, "DeviceApplicationIntegrity_GetIntegrityToken" }, // 4282850120
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled, "Entitlement_GetIsViewerEntitled" }, // 902394382
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear, "GroupPresence_Clear" }, // 3576404134
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers, "GroupPresence_GetInvitableUsers" }, // 2592094369
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites, "GroupPresence_GetSentInvites" }, // 207497466
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel, "GroupPresence_LaunchInvitePanel" }, // 4065494673
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog, "GroupPresence_LaunchMultiplayerErrorDialog" }, // 4165345345
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog, "GroupPresence_LaunchRejoinDialog" }, // 2304951862
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel, "GroupPresence_LaunchRosterPanel" }, // 385130552
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites, "GroupPresence_SendInvites" }, // 3519083355
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set, "GroupPresence_Set" }, // 854494275
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride, "GroupPresence_SetDeeplinkMessageOverride" }, // 598862006
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination, "GroupPresence_SetDestination" }, // 2056199382
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable, "GroupPresence_SetIsJoinable" }, // 2247207821
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession, "GroupPresence_SetLobbySession" }, // 1036250870
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession, "GroupPresence_SetMatchSession" }, // 3442579171
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase, "IAP_ConsumePurchase" }, // 2079684844
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU, "IAP_GetProductsBySKU" }, // 2973980400
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases, "IAP_GetViewerPurchases" }, // 3180389517
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache, "IAP_GetViewerPurchasesDurableCache" }, // 2020277915
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow, "IAP_LaunchCheckoutFlow" }, // 2113711647
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent, "LanguagePack_GetCurrent" }, // 2140912345
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent, "LanguagePack_SetCurrent" }, // 4268185277
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get, "Leaderboard_Get" }, // 4226834790
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries, "Leaderboard_GetEntries" }, // 167888285
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank, "Leaderboard_GetEntriesAfterRank" }, // 3337618400
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds, "Leaderboard_GetEntriesByIds" }, // 2675191755
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry, "Leaderboard_WriteEntry" }, // 2115753624
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric, "Leaderboard_WriteEntryWithSupplementaryMetric" }, // 2684396156
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook, "Media_ShareToFacebook" }, // 1088492519
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead, "Notification_MarkAsRead" }, // 1579461659
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent, "Party_GetCurrent" }, // 4179514610
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear, "RichPresence_Clear" }, // 4225798369
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations, "RichPresence_GetDestinations" }, // 2047545548
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set, "RichPresence_Set" }, // 2503494540
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get, "User_Get" }, // 2506420135
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken, "User_GetAccessToken" }, // 2251692201
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers, "User_GetBlockedUsers" }, // 3257848736
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser, "User_GetLoggedInUser" }, // 3654343461
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends, "User_GetLoggedInUserFriends" }, // 3318123026
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID, "User_GetOrgScopedID" }, // 2629161811
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts, "User_GetSdkAccounts" }, // 1309212992
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof, "User_GetUserProof" }, // 2334547540
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow, "User_LaunchBlockFlow" }, // 3859164827
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow, "User_LaunchFriendRequestFlow" }, // 1311982986
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow, "User_LaunchUnblockFlow" }, // 981039259
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get, "UserAgeCategory_Get" }, // 2867784760
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report, "UserAgeCategory_Report" }, // 2343511395
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability, "Voip_GetMicrophoneAvailability" }, // 184219131
-		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed, "Voip_SetSystemVoipSuppressed" }, // 3021895973
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AbuseReport_ReportRequestHandled, "AbuseReport_ReportRequestHandled" }, // 347605953
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddCount, "Achievements_AddCount" }, // 4025574034
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_AddFields, "Achievements_AddFields" }, // 2712715541
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllDefinitions, "Achievements_GetAllDefinitions" }, // 2779832565
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetAllProgress, "Achievements_GetAllProgress" }, // 2558130936
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetDefinitionsByName, "Achievements_GetDefinitionsByName" }, // 2773848416
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_GetProgressByName, "Achievements_GetProgressByName" }, // 615346394
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Achievements_Unlock, "Achievements_Unlock" }, // 4068601968
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CancelAppDownload, "Application_CancelAppDownload" }, // 542696150
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_CheckAppDownloadProgress, "Application_CheckAppDownloadProgress" }, // 4135357217
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_GetVersion, "Application_GetVersion" }, // 1315467326
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_InstallAppUpdateAndRelaunch, "Application_InstallAppUpdateAndRelaunch" }, // 2368201249
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_LaunchOtherApp, "Application_LaunchOtherApp" }, // 618091088
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Application_StartAppDownload, "Application_StartAppDownload" }, // 1940491286
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Delete, "AssetFile_Delete" }, // 436070516
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteById, "AssetFile_DeleteById" }, // 4069702142
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DeleteByName, "AssetFile_DeleteByName" }, // 3557528456
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Download, "AssetFile_Download" }, // 1843574350
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadById, "AssetFile_DownloadById" }, // 103324889
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadByName, "AssetFile_DownloadByName" }, // 483350635
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancel, "AssetFile_DownloadCancel" }, // 2031612555
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelById, "AssetFile_DownloadCancelById" }, // 4091629611
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_DownloadCancelByName, "AssetFile_DownloadCancelByName" }, // 946959369
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_GetList, "AssetFile_GetList" }, // 599716268
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_Status, "AssetFile_Status" }, // 773831970
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusById, "AssetFile_StatusById" }, // 1968455733
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_AssetFile_StatusByName, "AssetFile_StatusByName" }, // 1435346333
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Avatar_LaunchAvatarEditor, "Avatar_LaunchAvatarEditor" }, // 1349356827
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Create, "Challenges_Create" }, // 2121725345
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_DeclineInvite, "Challenges_DeclineInvite" }, // 554374872
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Delete, "Challenges_Delete" }, // 3269501807
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Get, "Challenges_Get" }, // 2663133862
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntries, "Challenges_GetEntries" }, // 29979677
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesAfterRank, "Challenges_GetEntriesAfterRank" }, // 596347396
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetEntriesByIds, "Challenges_GetEntriesByIds" }, // 1842676155
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_GetList, "Challenges_GetList" }, // 3420682872
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Join, "Challenges_Join" }, // 3481412978
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_Leave, "Challenges_Leave" }, // 619234880
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Challenges_UpdateInfo, "Challenges_UpdateInfo" }, // 3951856105
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetPresenterData, "Cowatching_GetPresenterData" }, // 2563223115
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_GetViewersData, "Cowatching_GetViewersData" }, // 306018479
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_IsInSession, "Cowatching_IsInSession" }, // 24478409
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_JoinSession, "Cowatching_JoinSession" }, // 1110482899
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LaunchInviteDialog, "Cowatching_LaunchInviteDialog" }, // 457217389
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_LeaveSession, "Cowatching_LeaveSession" }, // 3572644300
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_RequestToPresent, "Cowatching_RequestToPresent" }, // 1613529353
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_ResignFromPresenting, "Cowatching_ResignFromPresenting" }, // 3597715311
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetPresenterData, "Cowatching_SetPresenterData" }, // 272972458
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Cowatching_SetViewerData, "Cowatching_SetViewerData" }, // 1512641134
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_DeviceApplicationIntegrity_GetIntegrityToken, "DeviceApplicationIntegrity_GetIntegrityToken" }, // 1463154328
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Entitlement_GetIsViewerEntitled, "Entitlement_GetIsViewerEntitled" }, // 2272260967
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Clear, "GroupPresence_Clear" }, // 3627591305
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetInvitableUsers, "GroupPresence_GetInvitableUsers" }, // 1342050575
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_GetSentInvites, "GroupPresence_GetSentInvites" }, // 3102263671
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchInvitePanel, "GroupPresence_LaunchInvitePanel" }, // 3220032358
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchMultiplayerErrorDialog, "GroupPresence_LaunchMultiplayerErrorDialog" }, // 2547211673
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRejoinDialog, "GroupPresence_LaunchRejoinDialog" }, // 2430434528
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_LaunchRosterPanel, "GroupPresence_LaunchRosterPanel" }, // 3414028698
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SendInvites, "GroupPresence_SendInvites" }, // 1766886740
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_Set, "GroupPresence_Set" }, // 3543582783
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDeeplinkMessageOverride, "GroupPresence_SetDeeplinkMessageOverride" }, // 3612220848
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetDestination, "GroupPresence_SetDestination" }, // 676638824
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetIsJoinable, "GroupPresence_SetIsJoinable" }, // 3841598212
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetLobbySession, "GroupPresence_SetLobbySession" }, // 3607220673
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_GroupPresence_SetMatchSession, "GroupPresence_SetMatchSession" }, // 3448474722
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_ConsumePurchase, "IAP_ConsumePurchase" }, // 30975904
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetProductsBySKU, "IAP_GetProductsBySKU" }, // 2531604425
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchases, "IAP_GetViewerPurchases" }, // 3323482094
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_GetViewerPurchasesDurableCache, "IAP_GetViewerPurchasesDurableCache" }, // 1109954716
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_IAP_LaunchCheckoutFlow, "IAP_LaunchCheckoutFlow" }, // 3329539781
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_GetCurrent, "LanguagePack_GetCurrent" }, // 1270279686
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_LanguagePack_SetCurrent, "LanguagePack_SetCurrent" }, // 3211256146
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_Get, "Leaderboard_Get" }, // 2944572590
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntries, "Leaderboard_GetEntries" }, // 1587998013
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesAfterRank, "Leaderboard_GetEntriesAfterRank" }, // 2848414181
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_GetEntriesByIds, "Leaderboard_GetEntriesByIds" }, // 3873345579
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntry, "Leaderboard_WriteEntry" }, // 4166854449
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Leaderboard_WriteEntryWithSupplementaryMetric, "Leaderboard_WriteEntryWithSupplementaryMetric" }, // 1256565622
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Media_ShareToFacebook, "Media_ShareToFacebook" }, // 1505033923
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Notification_MarkAsRead, "Notification_MarkAsRead" }, // 3042902334
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Party_GetCurrent, "Party_GetCurrent" }, // 468428269
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Clear, "RichPresence_Clear" }, // 2450302232
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_GetDestinations, "RichPresence_GetDestinations" }, // 4113119142
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_RichPresence_Set, "RichPresence_Set" }, // 2418390231
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_Get, "User_Get" }, // 2456088943
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetAccessToken, "User_GetAccessToken" }, // 3784185431
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetBlockedUsers, "User_GetBlockedUsers" }, // 3829995489
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUser, "User_GetLoggedInUser" }, // 3485453348
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetLoggedInUserFriends, "User_GetLoggedInUserFriends" }, // 3884462274
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetOrgScopedID, "User_GetOrgScopedID" }, // 2282808007
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetSdkAccounts, "User_GetSdkAccounts" }, // 1452354304
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_GetUserProof, "User_GetUserProof" }, // 3287687835
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchBlockFlow, "User_LaunchBlockFlow" }, // 2809174224
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchFriendRequestFlow, "User_LaunchFriendRequestFlow" }, // 3174487353
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_User_LaunchUnblockFlow, "User_LaunchUnblockFlow" }, // 875874090
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Get, "UserAgeCategory_Get" }, // 1904237600
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_UserAgeCategory_Report, "UserAgeCategory_Report" }, // 758716521
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_GetMicrophoneAvailability, "Voip_GetMicrophoneAvailability" }, // 1544078185
+		{ &Z_Construct_UFunction_UOvrRequestsBlueprintLibrary_Voip_SetSystemVoipSuppressed, "Voip_SetSystemVoipSuppressed" }, // 2221743564
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOvrRequestsBlueprintLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -7951,15 +8347,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequests() {}
 	UOvrRequestsBlueprintLibrary::UOvrRequestsBlueprintLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOvrRequestsBlueprintLibrary);
 	UOvrRequestsBlueprintLibrary::~UOvrRequestsBlueprintLibrary() {}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOvrRequestsBlueprintLibrary, UOvrRequestsBlueprintLibrary::StaticClass, TEXT("UOvrRequestsBlueprintLibrary"), &Z_Registration_Info_UClass_UOvrRequestsBlueprintLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOvrRequestsBlueprintLibrary), 3697874955U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOvrRequestsBlueprintLibrary, UOvrRequestsBlueprintLibrary::StaticClass, TEXT("UOvrRequestsBlueprintLibrary"), &Z_Registration_Info_UClass_UOvrRequestsBlueprintLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOvrRequestsBlueprintLibrary), 1008353862U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_1592351725(TEXT("/Script/OVRPlatform"),
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_1659323953(TEXT("/Script/OVRPlatform"),
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequests_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

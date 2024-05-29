@@ -42,7 +42,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequestsSupport() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Requests output pins. */" },
+#endif
 		{ "Failure.Comment", "/** Failed request.  Check ErrorMsg. */" },
 		{ "Failure.Name", "EOvrRequestOutputPins::Failure" },
 		{ "Failure.ToolTip", "Failed request.  Check ErrorMsg." },
@@ -53,7 +55,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequestsSupport() {}
 		{ "Then.Comment", "/** Always executes immediately, before the request is sent. */" },
 		{ "Then.Name", "EOvrRequestOutputPins::Then" },
 		{ "Then.ToolTip", "Always executes immediately, before the request is sent." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Requests output pins." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OVRPlatform_EOvrRequestOutputPins_Statics::EnumParams = {
@@ -106,7 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequestsSupport() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Paged array requests output pins. */" },
+#endif
 		{ "Failure.Comment", "/** Failed request.  Check ErrorMsg. */" },
 		{ "Failure.Name", "EOvrPageRequestOutputPins::Failure" },
 		{ "Failure.ToolTip", "Failed request.  Check ErrorMsg." },
@@ -120,7 +126,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequestsSupport() {}
 		{ "Then.Comment", "/** Always executes immediately when the node is entered, before any page request is sent. */" },
 		{ "Then.Name", "EOvrPageRequestOutputPins::Then" },
 		{ "Then.ToolTip", "Always executes immediately when the node is entered, before any page request is sent." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Paged array requests output pins." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_OVRPlatform_EOvrPageRequestOutputPins_Statics::EnumParams = {
@@ -143,16 +151,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformRequestsSupport() {}
 		}
 		return Z_Registration_Info_UEnum_EOvrPageRequestOutputPins.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo[] = {
-		{ EOvrRequestOutputPins_StaticEnum, TEXT("EOvrRequestOutputPins"), &Z_Registration_Info_UEnum_EOvrRequestOutputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3276987296U) },
-		{ EOvrPageRequestOutputPins_StaticEnum, TEXT("EOvrPageRequestOutputPins"), &Z_Registration_Info_UEnum_EOvrPageRequestOutputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2231247403U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo[] = {
+		{ EOvrRequestOutputPins_StaticEnum, TEXT("EOvrRequestOutputPins"), &Z_Registration_Info_UEnum_EOvrRequestOutputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2139161085U) },
+		{ EOvrPageRequestOutputPins_StaticEnum, TEXT("EOvrPageRequestOutputPins"), &Z_Registration_Info_UEnum_EOvrPageRequestOutputPins, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1783670523U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_1579455670(TEXT("/Script/OVRPlatform"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_2548749229(TEXT("/Script/OVRPlatform"),
 		nullptr, 0,
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformRequestsSupport_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

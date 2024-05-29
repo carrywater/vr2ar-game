@@ -44,9 +44,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrId>()
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrId_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Category", "OvrPlatform|CustomModels|ID" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** UE type corresponding to OVR Platform ovrID */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "UE type corresponding to OVR Platform ovrID" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FOvrId_Statics::NewStructOps()
@@ -127,9 +131,13 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrVariant>()
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrVariant_Statics::Struct_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Category", "OvrPlatform|CustomModels|Variant" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** UE type corresponding to OVR Platform ovrKeyValuePair */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "UE type corresponding to OVR Platform ovrKeyValuePair" },
+#endif
 	};
 #endif
 	void* Z_Construct_UScriptStruct_FOvrVariant_Statics::NewStructOps()
@@ -143,7 +151,7 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrVariant>()
 		{ "ModuleRelativePath", "Public/OVRPlatformTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVariant, Type), Z_Construct_UEnum_OVRPlatform_EOvrKeyValuePairType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type_MetaData) }; // 1395201135
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOvrVariant, Type), Z_Construct_UEnum_OVRPlatform_EOvrKeyValuePairType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_Type_MetaData) }; // 3905849854
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOvrVariant_Statics::NewProp_StringValue_MetaData[] = {
 		{ "Category", "OvrPlatform|CustomModels|Variant|Field" },
@@ -200,16 +208,16 @@ template<> OVRPLATFORM_API UScriptStruct* StaticStruct<FOvrVariant>()
 		}
 		return Z_Registration_Info_UScriptStruct_OvrVariant.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo[] = {
-		{ FOvrId::StaticStruct, Z_Construct_UScriptStruct_FOvrId_Statics::NewStructOps, TEXT("OvrId"), &Z_Registration_Info_UScriptStruct_OvrId, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrId), 1486140189U) },
-		{ FOvrVariant::StaticStruct, Z_Construct_UScriptStruct_FOvrVariant_Statics::NewStructOps, TEXT("OvrVariant"), &Z_Registration_Info_UScriptStruct_OvrVariant, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrVariant), 2137730452U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo[] = {
+		{ FOvrId::StaticStruct, Z_Construct_UScriptStruct_FOvrId_Statics::NewStructOps, TEXT("OvrId"), &Z_Registration_Info_UScriptStruct_OvrId, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrId), 3840939361U) },
+		{ FOvrVariant::StaticStruct, Z_Construct_UScriptStruct_FOvrVariant_Statics::NewStructOps, TEXT("OvrVariant"), &Z_Registration_Info_UScriptStruct_OvrVariant, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FOvrVariant), 1841148229U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_3103843079(TEXT("/Script/OVRPlatform"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_2447567876(TEXT("/Script/OVRPlatform"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformTypes_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

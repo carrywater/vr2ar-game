@@ -78,12 +78,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrAbuseReportType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AbuseReportType enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Object.Comment", "/** A report for something besides a user, like a world. */" },
 		{ "Object.Name", "EOvrAbuseReportType::Object" },
 		{ "Object.ToolTip", "A report for something besides a user, like a world." },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AbuseReportType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrAbuseReportType::Unknown" },
 		{ "User.Comment", "/** A report for a user's behavior or profile. */" },
 		{ "User.Name", "EOvrAbuseReportType::User" },
@@ -142,10 +146,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "Ad.Name", "EOvrAccountAgeCategory::Ad" },
 		{ "BlueprintType", "true" },
 		{ "Ch.Name", "EOvrAccountAgeCategory::Ch" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AccountAgeCategory enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Tn.Name", "EOvrAccountAgeCategory::Tn" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AccountAgeCategory enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrAccountAgeCategory::Unknown" },
 	};
 #endif
@@ -200,11 +208,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrAchievementType_Statics::Enum_MetaDataParams[] = {
 		{ "Bitfield.Name", "EOvrAchievementType::Bitfield" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AchievementType enumeration. */" },
+#endif
 		{ "Count.Name", "EOvrAchievementType::Count" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Simple.Name", "EOvrAchievementType::Simple" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AchievementType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrAchievementType::Unknown" },
 	};
 #endif
@@ -258,10 +270,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrAppAgeCategory_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Ch.Name", "EOvrAppAgeCategory::Ch" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AppAgeCategory enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Nch.Name", "EOvrAppAgeCategory::Nch" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AppAgeCategory enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrAppAgeCategory::Unknown" },
 	};
 #endif
@@ -319,7 +335,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrAppStatus_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** AppStatus enumeration. */" },
+#endif
 		{ "Downloading.Name", "EOvrAppStatus::Downloading" },
 		{ "DownloadQueued.Name", "EOvrAppStatus::DownloadQueued" },
 		{ "Entitled.Name", "EOvrAppStatus::Entitled" },
@@ -327,7 +345,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "Installing.Name", "EOvrAppStatus::Installing" },
 		{ "InstallQueued.Name", "EOvrAppStatus::InstallQueued" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AppStatus enumeration." },
+#endif
 		{ "Uninstalling.Name", "EOvrAppStatus::Uninstalling" },
 		{ "Unknown.Name", "EOvrAppStatus::Unknown" },
 	};
@@ -381,10 +401,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrChallengeCreationType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ChallengeCreationType enumeration. */" },
+#endif
 		{ "DeveloperCreated.Name", "EOvrChallengeCreationType::DeveloperCreated" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ChallengeCreationType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrChallengeCreationType::Unknown" },
 		{ "UserCreated.Name", "EOvrChallengeCreationType::UserCreated" },
 	};
@@ -441,12 +465,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrChallengeViewerFilter_Statics::Enum_MetaDataParams[] = {
 		{ "AllVisible.Name", "EOvrChallengeViewerFilter::AllVisible" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ChallengeViewerFilter enumeration. */" },
+#endif
 		{ "Invited.Name", "EOvrChallengeViewerFilter::Invited" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Participating.Name", "EOvrChallengeViewerFilter::Participating" },
 		{ "ParticipatingOrInvited.Name", "EOvrChallengeViewerFilter::ParticipatingOrInvited" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ChallengeViewerFilter enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrChallengeViewerFilter::Unknown" },
 	};
 #endif
@@ -500,7 +528,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrChallengeVisibility_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ChallengeVisibility enumeration. */" },
+#endif
 		{ "InviteOnly.Comment", "/** Only those invited can participate in it. Everyone can see it */" },
 		{ "InviteOnly.Name", "EOvrChallengeVisibility::InviteOnly" },
 		{ "InviteOnly.ToolTip", "Only those invited can participate in it. Everyone can see it" },
@@ -511,7 +541,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "Public.Comment", "/** Everyone can participate and see this challenge */" },
 		{ "Public.Name", "EOvrChallengeVisibility::Public" },
 		{ "Public.ToolTip", "Everyone can participate and see this challenge" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ChallengeVisibility enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrChallengeVisibility::Unknown" },
 	};
 #endif
@@ -565,12 +597,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrKeyValuePairType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** KeyValuePairType enumeration. */" },
+#endif
 		{ "Double.Name", "EOvrKeyValuePairType::Double" },
 		{ "Int.Name", "EOvrKeyValuePairType::Int" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "String.Name", "EOvrKeyValuePairType::String" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "KeyValuePairType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrKeyValuePairType::Unknown" },
 	};
 #endif
@@ -627,7 +663,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrLaunchResult_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LaunchResult enumeration. */" },
+#endif
 		{ "FailedGameAlreadyStarted.Name", "EOvrLaunchResult::FailedGameAlreadyStarted" },
 		{ "FailedOtherReason.Name", "EOvrLaunchResult::FailedOtherReason" },
 		{ "FailedRoomFull.Name", "EOvrLaunchResult::FailedRoomFull" },
@@ -635,7 +673,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "FailedUserDeclined.Name", "EOvrLaunchResult::FailedUserDeclined" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Success.Name", "EOvrLaunchResult::Success" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LaunchResult enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLaunchResult::Unknown" },
 	};
 #endif
@@ -690,13 +730,17 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrLaunchType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LaunchType enumeration. */" },
+#endif
 		{ "Coordinated.Name", "EOvrLaunchType::Coordinated" },
 		{ "Deeplink.Name", "EOvrLaunchType::Deeplink" },
 		{ "Invite.Name", "EOvrLaunchType::Invite" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Normal.Name", "EOvrLaunchType::Normal" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LaunchType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLaunchType::Unknown" },
 	};
 #endif
@@ -750,11 +794,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrLeaderboardFilterType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LeaderboardFilterType enumeration. */" },
+#endif
 		{ "Friends.Name", "EOvrLeaderboardFilterType::Friends" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "None.Name", "EOvrLeaderboardFilterType::None" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LeaderboardFilterType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLeaderboardFilterType::Unknown" },
 		{ "UserIds.Name", "EOvrLeaderboardFilterType::UserIds" },
 	};
@@ -811,9 +859,13 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "BlueprintType", "true" },
 		{ "CenteredOnViewer.Name", "EOvrLeaderboardStartAt::CenteredOnViewer" },
 		{ "CenteredOnViewerOrTop.Name", "EOvrLeaderboardStartAt::CenteredOnViewerOrTop" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LeaderboardStartAt enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LeaderboardStartAt enumeration." },
+#endif
 		{ "Top.Name", "EOvrLeaderboardStartAt::Top" },
 		{ "Unknown.Name", "EOvrLeaderboardStartAt::Unknown" },
 	};
@@ -870,14 +922,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrLivestreamingStartStatus_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LivestreamingStartStatus enumeration. */" },
+#endif
 		{ "MissingParameters.Name", "EOvrLivestreamingStartStatus::MissingParameters" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "NoFbConnect.Name", "EOvrLivestreamingStartStatus::NoFbConnect" },
 		{ "NoPackageSet.Name", "EOvrLivestreamingStartStatus::NoPackageSet" },
 		{ "NoSessionId.Name", "EOvrLivestreamingStartStatus::NoSessionId" },
 		{ "Success.Name", "EOvrLivestreamingStartStatus::Success" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LivestreamingStartStatus enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLivestreamingStartStatus::Unknown" },
 	};
 #endif
@@ -967,7 +1023,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "AdClick.Name", "EOvrLogEventName::AdClick" },
 		{ "AdImpression.Name", "EOvrLogEventName::AdImpression" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LogEventName enumeration. */" },
+#endif
 		{ "Contact.Name", "EOvrLogEventName::Contact" },
 		{ "CustomizeProduct.Name", "EOvrLogEventName::CustomizeProduct" },
 		{ "Donate.Name", "EOvrLogEventName::Donate" },
@@ -980,7 +1038,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "SubscriptionFailed.Name", "EOvrLogEventName::SubscriptionFailed" },
 		{ "SubscriptionInitiatedCheckout.Name", "EOvrLogEventName::SubscriptionInitiatedCheckout" },
 		{ "SubscriptionRestore.Name", "EOvrLogEventName::SubscriptionRestore" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LogEventName enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLogEventName::Unknown" },
 		{ "VrAchievementUnlocked.Name", "EOvrLogEventName::VrAchievementUnlocked" },
 		{ "VrActivateApp.Name", "EOvrLogEventName::VrActivateApp" },
@@ -1086,14 +1146,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrLogEventParameter_Statics::Enum_MetaDataParams[] = {
 		{ "AdType.Name", "EOvrLogEventParameter::AdType" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** LogEventParameter enumeration. */" },
+#endif
 		{ "EventName.Name", "EOvrLogEventParameter::EventName" },
 		{ "ImplicitlyLogged.Name", "EOvrLogEventParameter::ImplicitlyLogged" },
 		{ "InBackground.Name", "EOvrLogEventParameter::InBackground" },
 		{ "LogTime.Name", "EOvrLogEventParameter::LogTime" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "SessionId.Name", "EOvrLogEventParameter::SessionId" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "LogEventParameter enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrLogEventParameter::Unknown" },
 		{ "VrContent.Name", "EOvrLogEventParameter::VrContent" },
 		{ "VrContentId.Name", "EOvrLogEventParameter::VrContentId" },
@@ -1169,10 +1233,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrMediaContentType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** MediaContentType enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Photo.Name", "EOvrMediaContentType::Photo" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MediaContentType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrMediaContentType::Unknown" },
 	};
 #endif
@@ -1234,7 +1302,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrMultiplayerErrorErrorKey_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** MultiplayerErrorErrorKey enumeration. */" },
+#endif
 		{ "DestinationUnavailable.Name", "EOvrMultiplayerErrorErrorKey::DestinationUnavailable" },
 		{ "DlcRequired.Name", "EOvrMultiplayerErrorErrorKey::DlcRequired" },
 		{ "General.Name", "EOvrMultiplayerErrorErrorKey::General" },
@@ -1245,7 +1315,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "NetworkTimeout.Name", "EOvrMultiplayerErrorErrorKey::NetworkTimeout" },
 		{ "NoLongerAvailable.Name", "EOvrMultiplayerErrorErrorKey::NoLongerAvailable" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MultiplayerErrorErrorKey enumeration." },
+#endif
 		{ "TutorialRequired.Name", "EOvrMultiplayerErrorErrorKey::TutorialRequired" },
 		{ "Unknown.Name", "EOvrMultiplayerErrorErrorKey::Unknown" },
 		{ "UpdateRequired.Name", "EOvrMultiplayerErrorErrorKey::UpdateRequired" },
@@ -1301,12 +1373,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrNetSyncConnectionStatus_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** NetSyncConnectionStatus enumeration. */" },
+#endif
 		{ "Connected.Name", "EOvrNetSyncConnectionStatus::Connected" },
 		{ "Connecting.Name", "EOvrNetSyncConnectionStatus::Connecting" },
 		{ "Disconnected.Name", "EOvrNetSyncConnectionStatus::Disconnected" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "NetSyncConnectionStatus enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrNetSyncConnectionStatus::Unknown" },
 	};
 #endif
@@ -1361,7 +1437,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrNetSyncDisconnectReason_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** NetSyncDisconnectReason enumeration. */" },
+#endif
 		{ "Failed.Comment", "/** initial connection never succeeded */" },
 		{ "Failed.Name", "EOvrNetSyncDisconnectReason::Failed" },
 		{ "Failed.ToolTip", "initial connection never succeeded" },
@@ -1375,7 +1453,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "ServerTerminated.Comment", "/** server intentionally closed the connection */" },
 		{ "ServerTerminated.Name", "EOvrNetSyncDisconnectReason::ServerTerminated" },
 		{ "ServerTerminated.ToolTip", "server intentionally closed the connection" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "NetSyncDisconnectReason enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrNetSyncDisconnectReason::Unknown" },
 	};
 #endif
@@ -1428,11 +1508,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrNetSyncVoipMicSource_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** NetSyncVoipMicSource enumeration. */" },
+#endif
 		{ "Internal.Name", "EOvrNetSyncVoipMicSource::Internal" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "None.Name", "EOvrNetSyncVoipMicSource::None" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "NetSyncVoipMicSource enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrNetSyncVoipMicSource::Unknown" },
 	};
 #endif
@@ -1486,10 +1570,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrNetSyncVoipStreamMode_Statics::Enum_MetaDataParams[] = {
 		{ "Ambisonic.Name", "EOvrNetSyncVoipStreamMode::Ambisonic" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** NetSyncVoipStreamMode enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Mono.Name", "EOvrNetSyncVoipStreamMode::Mono" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "NetSyncVoipStreamMode enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrNetSyncVoipStreamMode::Unknown" },
 	};
 #endif
@@ -1544,12 +1632,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrPartyUpdateAction_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** PartyUpdateAction enumeration. */" },
+#endif
 		{ "Invite.Name", "EOvrPartyUpdateAction::Invite" },
 		{ "Join.Name", "EOvrPartyUpdateAction::Join" },
 		{ "Leave.Name", "EOvrPartyUpdateAction::Leave" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PartyUpdateAction enumeration." },
+#endif
 		{ "Uninvite.Name", "EOvrPartyUpdateAction::Uninvite" },
 		{ "Unknown.Name", "EOvrPartyUpdateAction::Unknown" },
 	};
@@ -1605,11 +1697,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrPermissionGrantStatus_Statics::Enum_MetaDataParams[] = {
 		{ "Blocked.Name", "EOvrPermissionGrantStatus::Blocked" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** PermissionGrantStatus enumeration. */" },
+#endif
 		{ "Denied.Name", "EOvrPermissionGrantStatus::Denied" },
 		{ "Granted.Name", "EOvrPermissionGrantStatus::Granted" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "PermissionGrantStatus enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrPermissionGrantStatus::Unknown" },
 	};
 #endif
@@ -1669,7 +1765,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrPlatformInitializeResult_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * Describes the various results possible when attempting to initialize the platform.\n * Anything other than ovrPlatformInitialize_Success should be considered a fatal error\n * with respect to using the platform, as the platform is not guaranteed to be legitimate\n * or work correctly.\n */" },
+#endif
 		{ "FileInvalid.Name", "EOvrPlatformInitializeResult::FileInvalid" },
 		{ "InvalidCredentials.Name", "EOvrPlatformInitializeResult::InvalidCredentials" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
@@ -1677,7 +1775,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "PreLoaded.Name", "EOvrPlatformInitializeResult::PreLoaded" },
 		{ "SignatureInvalid.Name", "EOvrPlatformInitializeResult::SignatureInvalid" },
 		{ "Success.Name", "EOvrPlatformInitializeResult::Success" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Describes the various results possible when attempting to initialize the platform.\nAnything other than ovrPlatformInitialize_Success should be considered a fatal error\nwith respect to using the platform, as the platform is not guaranteed to be legitimate\nor work correctly." },
+#endif
 		{ "UnableToVerify.Name", "EOvrPlatformInitializeResult::UnableToVerify" },
 		{ "Uninitialized.Name", "EOvrPlatformInitializeResult::Uninitialized" },
 		{ "Unknown.Name", "EOvrPlatformInitializeResult::Unknown" },
@@ -1734,10 +1834,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrReportRequestResponse_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ReportRequestResponse enumeration. */" },
+#endif
 		{ "Handled.Name", "EOvrReportRequestResponse::Handled" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ReportRequestResponse enumeration." },
+#endif
 		{ "Unavailable.Name", "EOvrReportRequestResponse::Unavailable" },
 		{ "Unhandled.Name", "EOvrReportRequestResponse::Unhandled" },
 		{ "Unknown.Name", "EOvrReportRequestResponse::Unknown" },
@@ -1795,7 +1899,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrRichPresenceExtraContext_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Display extra information about the user's presence */" },
+#endif
 		{ "CurrentCapacity.Comment", "/** Display the current amount with the user over the max */" },
 		{ "CurrentCapacity.Name", "EOvrRichPresenceExtraContext::CurrentCapacity" },
 		{ "CurrentCapacity.ToolTip", "Display the current amount with the user over the max" },
@@ -1812,7 +1918,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "StartedAgo.Comment", "/** Display how long ago the match/game/race/etc started */" },
 		{ "StartedAgo.Name", "EOvrRichPresenceExtraContext::StartedAgo" },
 		{ "StartedAgo.ToolTip", "Display how long ago the match/game/race/etc started" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Display extra information about the user's presence" },
+#endif
 		{ "Unknown.Name", "EOvrRichPresenceExtraContext::Unknown" },
 	};
 #endif
@@ -1865,11 +1973,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrSdkAccountType_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** SdkAccountType enumeration. */" },
+#endif
 		{ "FacebookGameroom.Name", "EOvrSdkAccountType::FacebookGameroom" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Oculus.Name", "EOvrSdkAccountType::Oculus" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "SdkAccountType enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrSdkAccountType::Unknown" },
 	};
 #endif
@@ -1925,14 +2037,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrServiceProvider_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ServiceProvider enumeration. */" },
+#endif
 		{ "Dropbox.Name", "EOvrServiceProvider::Dropbox" },
 		{ "Facebook.Name", "EOvrServiceProvider::Facebook" },
 		{ "Google.Name", "EOvrServiceProvider::Google" },
 		{ "Instagram.Name", "EOvrServiceProvider::Instagram" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "RemoteMedia.Name", "EOvrServiceProvider::RemoteMedia" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ServiceProvider enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrServiceProvider::Unknown" },
 	};
 #endif
@@ -1986,10 +2102,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrShareMediaStatus_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
 		{ "Canceled.Name", "EOvrShareMediaStatus::Canceled" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** ShareMediaStatus enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Shared.Name", "EOvrShareMediaStatus::Shared" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "ShareMediaStatus enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrShareMediaStatus::Unknown" },
 	};
 #endif
@@ -2044,10 +2164,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrSystemVoipStatus_Statics::Enum_MetaDataParams[] = {
 		{ "Active.Name", "EOvrSystemVoipStatus::Active" },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** SystemVoipStatus enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Suppressed.Name", "EOvrSystemVoipStatus::Suppressed" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "SystemVoipStatus enumeration." },
+#endif
 		{ "Unavailable.Name", "EOvrSystemVoipStatus::Unavailable" },
 		{ "Unknown.Name", "EOvrSystemVoipStatus::Unknown" },
 	};
@@ -2104,14 +2228,18 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrTimeWindow_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How far should we go back in time looking at history?  This is used in some requests such as User_GetLoggedInUserRecentlyMetUsersAndRooms() */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "NinetyDays.Name", "EOvrTimeWindow::NinetyDays" },
 		{ "OneDay.Name", "EOvrTimeWindow::OneDay" },
 		{ "OneHour.Name", "EOvrTimeWindow::OneHour" },
 		{ "OneWeek.Name", "EOvrTimeWindow::OneWeek" },
 		{ "ThirtyDays.Name", "EOvrTimeWindow::ThirtyDays" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How far should we go back in time looking at history?  This is used in some requests such as User_GetLoggedInUserRecentlyMetUsersAndRooms()" },
+#endif
 		{ "Unknown.Name", "EOvrTimeWindow::Unknown" },
 	};
 #endif
@@ -2164,7 +2292,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrUserOrdering_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * The ordering that is used when returning a list of users. This is used in\n * some requests such as Room_GetInvitableUsers2()\n */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "None.Comment", "/** No preference for ordering (could be in any or no order) */" },
 		{ "None.Name", "EOvrUserOrdering::None" },
@@ -2172,7 +2302,9 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "PresenceAlphabetical.Comment", "/**\n     * Orders by online users first and then offline users. Within each group the\n     * users are ordered alphabetically by display name\n     */" },
 		{ "PresenceAlphabetical.Name", "EOvrUserOrdering::PresenceAlphabetical" },
 		{ "PresenceAlphabetical.ToolTip", "Orders by online users first and then offline users. Within each group the\nusers are ordered alphabetically by display name" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The ordering that is used when returning a list of users. This is used in\nsome requests such as Room_GetInvitableUsers2()" },
+#endif
 		{ "Unknown.Name", "EOvrUserOrdering::Unknown" },
 	};
 #endif
@@ -2225,11 +2357,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrUserPresenceStatus_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** UserPresenceStatus enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Offline.Name", "EOvrUserPresenceStatus::Offline" },
 		{ "Online.Name", "EOvrUserPresenceStatus::Online" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "UserPresenceStatus enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrUserPresenceStatus::Unknown" },
 	};
 #endif
@@ -2304,9 +2440,13 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		{ "B96000.Name", "EOvrVoipBitrate::B96000" },
 		{ "B96000.ToolTip", "Even higher audio quality for music streaming or radio-like quality." },
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** VoipBitrate enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VoipBitrate enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrVoipBitrate::Unknown" },
 	};
 #endif
@@ -2359,11 +2499,15 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrVoipDtxState_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** VoipDtxState enumeration. */" },
+#endif
 		{ "Disabled.Name", "EOvrVoipDtxState::Disabled" },
 		{ "Enabled.Name", "EOvrVoipDtxState::Enabled" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VoipDtxState enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrVoipDtxState::Unknown" },
 	};
 #endif
@@ -2416,10 +2560,14 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrVoipMuteState_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** VoipMuteState enumeration. */" },
+#endif
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
 		{ "Muted.Name", "EOvrVoipMuteState::Muted" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VoipMuteState enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrVoipMuteState::Unknown" },
 		{ "Unmuted.Name", "EOvrVoipMuteState::Unmuted" },
 	};
@@ -2474,12 +2622,16 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_OVRPlatform_EOvrVoipSampleRate_Statics::Enum_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** VoipSampleRate enumeration. */" },
+#endif
 		{ "HZ24000.Name", "EOvrVoipSampleRate::HZ24000" },
 		{ "HZ44100.Name", "EOvrVoipSampleRate::HZ44100" },
 		{ "HZ48000.Name", "EOvrVoipSampleRate::HZ48000" },
 		{ "ModuleRelativePath", "Public/OVRPlatformEnums.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "VoipSampleRate enumeration." },
+#endif
 		{ "Unknown.Name", "EOvrVoipSampleRate::Unknown" },
 	};
 #endif
@@ -2503,52 +2655,52 @@ void EmptyLinkFunctionForGeneratedCodeOVRPlatformEnums() {}
 		}
 		return Z_Registration_Info_UEnum_EOvrVoipSampleRate.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo[] = {
-		{ EOvrAbuseReportType_StaticEnum, TEXT("EOvrAbuseReportType"), &Z_Registration_Info_UEnum_EOvrAbuseReportType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3838170149U) },
-		{ EOvrAccountAgeCategory_StaticEnum, TEXT("EOvrAccountAgeCategory"), &Z_Registration_Info_UEnum_EOvrAccountAgeCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2190420287U) },
-		{ EOvrAchievementType_StaticEnum, TEXT("EOvrAchievementType"), &Z_Registration_Info_UEnum_EOvrAchievementType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3785935178U) },
-		{ EOvrAppAgeCategory_StaticEnum, TEXT("EOvrAppAgeCategory"), &Z_Registration_Info_UEnum_EOvrAppAgeCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2635193003U) },
-		{ EOvrAppStatus_StaticEnum, TEXT("EOvrAppStatus"), &Z_Registration_Info_UEnum_EOvrAppStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3826825256U) },
-		{ EOvrChallengeCreationType_StaticEnum, TEXT("EOvrChallengeCreationType"), &Z_Registration_Info_UEnum_EOvrChallengeCreationType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1510569691U) },
-		{ EOvrChallengeViewerFilter_StaticEnum, TEXT("EOvrChallengeViewerFilter"), &Z_Registration_Info_UEnum_EOvrChallengeViewerFilter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4096897729U) },
-		{ EOvrChallengeVisibility_StaticEnum, TEXT("EOvrChallengeVisibility"), &Z_Registration_Info_UEnum_EOvrChallengeVisibility, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2364171270U) },
-		{ EOvrKeyValuePairType_StaticEnum, TEXT("EOvrKeyValuePairType"), &Z_Registration_Info_UEnum_EOvrKeyValuePairType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1395201135U) },
-		{ EOvrLaunchResult_StaticEnum, TEXT("EOvrLaunchResult"), &Z_Registration_Info_UEnum_EOvrLaunchResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2240372009U) },
-		{ EOvrLaunchType_StaticEnum, TEXT("EOvrLaunchType"), &Z_Registration_Info_UEnum_EOvrLaunchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3663826566U) },
-		{ EOvrLeaderboardFilterType_StaticEnum, TEXT("EOvrLeaderboardFilterType"), &Z_Registration_Info_UEnum_EOvrLeaderboardFilterType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 316971510U) },
-		{ EOvrLeaderboardStartAt_StaticEnum, TEXT("EOvrLeaderboardStartAt"), &Z_Registration_Info_UEnum_EOvrLeaderboardStartAt, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3828624315U) },
-		{ EOvrLivestreamingStartStatus_StaticEnum, TEXT("EOvrLivestreamingStartStatus"), &Z_Registration_Info_UEnum_EOvrLivestreamingStartStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1648720441U) },
-		{ EOvrLogEventName_StaticEnum, TEXT("EOvrLogEventName"), &Z_Registration_Info_UEnum_EOvrLogEventName, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1150084586U) },
-		{ EOvrLogEventParameter_StaticEnum, TEXT("EOvrLogEventParameter"), &Z_Registration_Info_UEnum_EOvrLogEventParameter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1647227474U) },
-		{ EOvrMediaContentType_StaticEnum, TEXT("EOvrMediaContentType"), &Z_Registration_Info_UEnum_EOvrMediaContentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2268527934U) },
-		{ EOvrMultiplayerErrorErrorKey_StaticEnum, TEXT("EOvrMultiplayerErrorErrorKey"), &Z_Registration_Info_UEnum_EOvrMultiplayerErrorErrorKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2611589755U) },
-		{ EOvrNetSyncConnectionStatus_StaticEnum, TEXT("EOvrNetSyncConnectionStatus"), &Z_Registration_Info_UEnum_EOvrNetSyncConnectionStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3691582698U) },
-		{ EOvrNetSyncDisconnectReason_StaticEnum, TEXT("EOvrNetSyncDisconnectReason"), &Z_Registration_Info_UEnum_EOvrNetSyncDisconnectReason, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2536526182U) },
-		{ EOvrNetSyncVoipMicSource_StaticEnum, TEXT("EOvrNetSyncVoipMicSource"), &Z_Registration_Info_UEnum_EOvrNetSyncVoipMicSource, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2600443777U) },
-		{ EOvrNetSyncVoipStreamMode_StaticEnum, TEXT("EOvrNetSyncVoipStreamMode"), &Z_Registration_Info_UEnum_EOvrNetSyncVoipStreamMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3376788165U) },
-		{ EOvrPartyUpdateAction_StaticEnum, TEXT("EOvrPartyUpdateAction"), &Z_Registration_Info_UEnum_EOvrPartyUpdateAction, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3650361307U) },
-		{ EOvrPermissionGrantStatus_StaticEnum, TEXT("EOvrPermissionGrantStatus"), &Z_Registration_Info_UEnum_EOvrPermissionGrantStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 384459546U) },
-		{ EOvrPlatformInitializeResult_StaticEnum, TEXT("EOvrPlatformInitializeResult"), &Z_Registration_Info_UEnum_EOvrPlatformInitializeResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2969937702U) },
-		{ EOvrReportRequestResponse_StaticEnum, TEXT("EOvrReportRequestResponse"), &Z_Registration_Info_UEnum_EOvrReportRequestResponse, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1935330300U) },
-		{ EOvrRichPresenceExtraContext_StaticEnum, TEXT("EOvrRichPresenceExtraContext"), &Z_Registration_Info_UEnum_EOvrRichPresenceExtraContext, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1058238785U) },
-		{ EOvrSdkAccountType_StaticEnum, TEXT("EOvrSdkAccountType"), &Z_Registration_Info_UEnum_EOvrSdkAccountType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4266263247U) },
-		{ EOvrServiceProvider_StaticEnum, TEXT("EOvrServiceProvider"), &Z_Registration_Info_UEnum_EOvrServiceProvider, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1139256461U) },
-		{ EOvrShareMediaStatus_StaticEnum, TEXT("EOvrShareMediaStatus"), &Z_Registration_Info_UEnum_EOvrShareMediaStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 808384281U) },
-		{ EOvrSystemVoipStatus_StaticEnum, TEXT("EOvrSystemVoipStatus"), &Z_Registration_Info_UEnum_EOvrSystemVoipStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2581262208U) },
-		{ EOvrTimeWindow_StaticEnum, TEXT("EOvrTimeWindow"), &Z_Registration_Info_UEnum_EOvrTimeWindow, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1757290216U) },
-		{ EOvrUserOrdering_StaticEnum, TEXT("EOvrUserOrdering"), &Z_Registration_Info_UEnum_EOvrUserOrdering, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3124878163U) },
-		{ EOvrUserPresenceStatus_StaticEnum, TEXT("EOvrUserPresenceStatus"), &Z_Registration_Info_UEnum_EOvrUserPresenceStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 218544777U) },
-		{ EOvrVoipBitrate_StaticEnum, TEXT("EOvrVoipBitrate"), &Z_Registration_Info_UEnum_EOvrVoipBitrate, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1196634490U) },
-		{ EOvrVoipDtxState_StaticEnum, TEXT("EOvrVoipDtxState"), &Z_Registration_Info_UEnum_EOvrVoipDtxState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 403102528U) },
-		{ EOvrVoipMuteState_StaticEnum, TEXT("EOvrVoipMuteState"), &Z_Registration_Info_UEnum_EOvrVoipMuteState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 132336637U) },
-		{ EOvrVoipSampleRate_StaticEnum, TEXT("EOvrVoipSampleRate"), &Z_Registration_Info_UEnum_EOvrVoipSampleRate, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1745259426U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo[] = {
+		{ EOvrAbuseReportType_StaticEnum, TEXT("EOvrAbuseReportType"), &Z_Registration_Info_UEnum_EOvrAbuseReportType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3456442530U) },
+		{ EOvrAccountAgeCategory_StaticEnum, TEXT("EOvrAccountAgeCategory"), &Z_Registration_Info_UEnum_EOvrAccountAgeCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1836042271U) },
+		{ EOvrAchievementType_StaticEnum, TEXT("EOvrAchievementType"), &Z_Registration_Info_UEnum_EOvrAchievementType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 401348313U) },
+		{ EOvrAppAgeCategory_StaticEnum, TEXT("EOvrAppAgeCategory"), &Z_Registration_Info_UEnum_EOvrAppAgeCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4237146453U) },
+		{ EOvrAppStatus_StaticEnum, TEXT("EOvrAppStatus"), &Z_Registration_Info_UEnum_EOvrAppStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2066356342U) },
+		{ EOvrChallengeCreationType_StaticEnum, TEXT("EOvrChallengeCreationType"), &Z_Registration_Info_UEnum_EOvrChallengeCreationType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1568324558U) },
+		{ EOvrChallengeViewerFilter_StaticEnum, TEXT("EOvrChallengeViewerFilter"), &Z_Registration_Info_UEnum_EOvrChallengeViewerFilter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3938822877U) },
+		{ EOvrChallengeVisibility_StaticEnum, TEXT("EOvrChallengeVisibility"), &Z_Registration_Info_UEnum_EOvrChallengeVisibility, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2732783170U) },
+		{ EOvrKeyValuePairType_StaticEnum, TEXT("EOvrKeyValuePairType"), &Z_Registration_Info_UEnum_EOvrKeyValuePairType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3905849854U) },
+		{ EOvrLaunchResult_StaticEnum, TEXT("EOvrLaunchResult"), &Z_Registration_Info_UEnum_EOvrLaunchResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3313109375U) },
+		{ EOvrLaunchType_StaticEnum, TEXT("EOvrLaunchType"), &Z_Registration_Info_UEnum_EOvrLaunchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 14712199U) },
+		{ EOvrLeaderboardFilterType_StaticEnum, TEXT("EOvrLeaderboardFilterType"), &Z_Registration_Info_UEnum_EOvrLeaderboardFilterType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1930603005U) },
+		{ EOvrLeaderboardStartAt_StaticEnum, TEXT("EOvrLeaderboardStartAt"), &Z_Registration_Info_UEnum_EOvrLeaderboardStartAt, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1888160885U) },
+		{ EOvrLivestreamingStartStatus_StaticEnum, TEXT("EOvrLivestreamingStartStatus"), &Z_Registration_Info_UEnum_EOvrLivestreamingStartStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2530691433U) },
+		{ EOvrLogEventName_StaticEnum, TEXT("EOvrLogEventName"), &Z_Registration_Info_UEnum_EOvrLogEventName, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2200653511U) },
+		{ EOvrLogEventParameter_StaticEnum, TEXT("EOvrLogEventParameter"), &Z_Registration_Info_UEnum_EOvrLogEventParameter, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 567753753U) },
+		{ EOvrMediaContentType_StaticEnum, TEXT("EOvrMediaContentType"), &Z_Registration_Info_UEnum_EOvrMediaContentType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3375720924U) },
+		{ EOvrMultiplayerErrorErrorKey_StaticEnum, TEXT("EOvrMultiplayerErrorErrorKey"), &Z_Registration_Info_UEnum_EOvrMultiplayerErrorErrorKey, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3843135906U) },
+		{ EOvrNetSyncConnectionStatus_StaticEnum, TEXT("EOvrNetSyncConnectionStatus"), &Z_Registration_Info_UEnum_EOvrNetSyncConnectionStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 894923921U) },
+		{ EOvrNetSyncDisconnectReason_StaticEnum, TEXT("EOvrNetSyncDisconnectReason"), &Z_Registration_Info_UEnum_EOvrNetSyncDisconnectReason, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 198148404U) },
+		{ EOvrNetSyncVoipMicSource_StaticEnum, TEXT("EOvrNetSyncVoipMicSource"), &Z_Registration_Info_UEnum_EOvrNetSyncVoipMicSource, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 216078639U) },
+		{ EOvrNetSyncVoipStreamMode_StaticEnum, TEXT("EOvrNetSyncVoipStreamMode"), &Z_Registration_Info_UEnum_EOvrNetSyncVoipStreamMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1963418392U) },
+		{ EOvrPartyUpdateAction_StaticEnum, TEXT("EOvrPartyUpdateAction"), &Z_Registration_Info_UEnum_EOvrPartyUpdateAction, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 150001066U) },
+		{ EOvrPermissionGrantStatus_StaticEnum, TEXT("EOvrPermissionGrantStatus"), &Z_Registration_Info_UEnum_EOvrPermissionGrantStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2679563776U) },
+		{ EOvrPlatformInitializeResult_StaticEnum, TEXT("EOvrPlatformInitializeResult"), &Z_Registration_Info_UEnum_EOvrPlatformInitializeResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4011250968U) },
+		{ EOvrReportRequestResponse_StaticEnum, TEXT("EOvrReportRequestResponse"), &Z_Registration_Info_UEnum_EOvrReportRequestResponse, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 201248338U) },
+		{ EOvrRichPresenceExtraContext_StaticEnum, TEXT("EOvrRichPresenceExtraContext"), &Z_Registration_Info_UEnum_EOvrRichPresenceExtraContext, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1832419380U) },
+		{ EOvrSdkAccountType_StaticEnum, TEXT("EOvrSdkAccountType"), &Z_Registration_Info_UEnum_EOvrSdkAccountType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2343509589U) },
+		{ EOvrServiceProvider_StaticEnum, TEXT("EOvrServiceProvider"), &Z_Registration_Info_UEnum_EOvrServiceProvider, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4025987212U) },
+		{ EOvrShareMediaStatus_StaticEnum, TEXT("EOvrShareMediaStatus"), &Z_Registration_Info_UEnum_EOvrShareMediaStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 429328672U) },
+		{ EOvrSystemVoipStatus_StaticEnum, TEXT("EOvrSystemVoipStatus"), &Z_Registration_Info_UEnum_EOvrSystemVoipStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3924072424U) },
+		{ EOvrTimeWindow_StaticEnum, TEXT("EOvrTimeWindow"), &Z_Registration_Info_UEnum_EOvrTimeWindow, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3381358571U) },
+		{ EOvrUserOrdering_StaticEnum, TEXT("EOvrUserOrdering"), &Z_Registration_Info_UEnum_EOvrUserOrdering, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3827175212U) },
+		{ EOvrUserPresenceStatus_StaticEnum, TEXT("EOvrUserPresenceStatus"), &Z_Registration_Info_UEnum_EOvrUserPresenceStatus, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4162241342U) },
+		{ EOvrVoipBitrate_StaticEnum, TEXT("EOvrVoipBitrate"), &Z_Registration_Info_UEnum_EOvrVoipBitrate, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3604360586U) },
+		{ EOvrVoipDtxState_StaticEnum, TEXT("EOvrVoipDtxState"), &Z_Registration_Info_UEnum_EOvrVoipDtxState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2358751003U) },
+		{ EOvrVoipMuteState_StaticEnum, TEXT("EOvrVoipMuteState"), &Z_Registration_Info_UEnum_EOvrVoipMuteState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2695303595U) },
+		{ EOvrVoipSampleRate_StaticEnum, TEXT("EOvrVoipSampleRate"), &Z_Registration_Info_UEnum_EOvrVoipSampleRate, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2092630381U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_2321847776(TEXT("/Script/OVRPlatform"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_1490166245(TEXT("/Script/OVRPlatform"),
 		nullptr, 0,
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_HostProject_Plugins_OculusPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_20223288_OneDrive___TU_Eindhoven_Desktop_P3_individual_vr2ar_final_Plugins_MetaXRPlatform_Source_OVRPlatform_Public_OVRPlatformEnums_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
