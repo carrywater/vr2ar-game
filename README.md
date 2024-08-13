@@ -8,6 +8,13 @@ This repository contains a university project focused on the integration and swi
 
 The game places the player in the first-person perspective of a robot mouse on a mission to gather as much cheese as possible and stash it in its hiding hole. The house is inhabited by rogue individuals that the mouse must avoid. The innovative switching mechanism between AR and VR offers a god-like perspective for real-time information, planning, and interaction, dynamically influencing the VR environment.
 
+![WhatsApp Image 2024-05-22 at 14 40 56_b16f5ade](https://github.com/user-attachments/assets/f17b09c4-884b-47d9-9b61-3548d8854b5b)
+
+![WhatsApp Image 2024-06-03 at 13 56 34_09524eaf](https://github.com/user-attachments/assets/d00ca999-b99e-4b24-973a-2ebe7704591a)
+
+![WhatsApp Image 2024-04-23 at 12 02 13_e4abd990](https://github.com/user-attachments/assets/7980178c-8fbb-464a-998f-05a291d9932e)
+
+
 ### Key features:
 
 This project includes several features that can be useful for other creators looking to develop similar AR-VR experiences:
@@ -21,6 +28,9 @@ This project includes several features that can be useful for other creators loo
 | **Damage System** | A system that handles damage, health, and healing taken by the player character from enemies or obstacles. |
 | **Collectable System** | A system for collectable items, including logic for collecting and tracking progress. |
 ## Background and Motivation
+
+![WhatsApp Image 2024-05-29 at 22 50 38_348b88cd](https://github.com/user-attachments/assets/b4593381-d98b-4262-8df7-2799272fce0c)
+
 
 ### Progression of VR and AR
 
