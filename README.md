@@ -27,10 +27,10 @@ This project includes several features that can be useful for other creators loo
 | **Enemy Pawn Sensing NPC** | A scalable non-player character blueprint (NPC) with advanced behavior states including passive, investigating, seeking, and attacking. |
 | **Damage System** | A system that handles damage, health, and healing taken by the player character from enemies or obstacles. |
 | **Collectable System** | A system for collectable items, including logic for collecting and tracking progress. |
-## Background and Motivation
 
 ![WhatsApp Image 2024-05-29 at 22 50 38_348b88cd](https://github.com/user-attachments/assets/b4593381-d98b-4262-8df7-2799272fce0c)
 
+## Background and Motivation
 
 ### Progression of VR and AR
 
