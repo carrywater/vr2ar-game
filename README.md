@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a university project focused on the seamless integration and switching between Augmented Reality (AR) and Virtual Reality (VR) in digital games. Our project, a game developed through a research-through-design approach, explores the unique capabilities of both AR and VR, creating a mixed reality experience that leverages the strengths of each medium.
+This repository contains a university project focused on the integration and switching between Augmented Reality (AR) and Virtual Reality (VR) in digital games. Our project, a game developed through a research-through-design approach, explores the unique capabilities of both AR and VR, creating a mixed reality experience that leverages the strengths of each medium.
 
 ### Game Concept
 
